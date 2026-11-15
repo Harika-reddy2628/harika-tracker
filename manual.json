@@ -1,0 +1,207 @@
+{
+ "_help": "Harika's hand-kept facts (GRIT results, mastery, quests). Edited by Claude.",
+ "grit": {
+  "miles": null,
+  "rank": null,
+  "rankOf": null,
+  "asOf": null
+ },
+ "ladder": [
+  {
+   "id": "w01",
+   "week": 1,
+   "dates": "16–22 Nov",
+   "pattern": "Python 1: variables, functions, conditionals",
+   "mastered": false
+  },
+  {
+   "id": "w02",
+   "week": 2,
+   "dates": "23–29 Nov",
+   "pattern": "Python 2: loops, lists, dicts, errors",
+   "mastered": false
+  },
+  {
+   "id": "w03",
+   "week": 3,
+   "dates": "30 Nov–6 Dec",
+   "pattern": "Python 3: libraries, files, OOP, Git",
+   "mastered": false,
+   "grit": "CT L1"
+  },
+  {
+   "id": "w04",
+   "week": 4,
+   "dates": "7–13 Dec",
+   "pattern": "DSA start: Big-O + arrays (LeetCode Easy)",
+   "mastered": false
+  },
+  {
+   "id": "w05",
+   "week": 5,
+   "dates": "14–20 Dec",
+   "pattern": "Strings + hashing (dict/set)",
+   "mastered": false
+  },
+  {
+   "id": "w06",
+   "week": 6,
+   "dates": "21–27 Dec",
+   "pattern": "Two pointers",
+   "mastered": false
+  },
+  {
+   "id": "w07",
+   "week": 7,
+   "dates": "28 Dec–3 Jan",
+   "pattern": "Sliding window",
+   "mastered": false
+  },
+  {
+   "id": "w08",
+   "week": 8,
+   "dates": "4–10 Jan",
+   "pattern": "Stacks",
+   "mastered": false
+  },
+  {
+   "id": "w09",
+   "week": 9,
+   "dates": "11–17 Jan",
+   "pattern": "Binary search",
+   "mastered": false
+  },
+  {
+   "id": "w10",
+   "week": 10,
+   "dates": "18–24 Jan",
+   "pattern": "Linked lists (basics)",
+   "mastered": false
+  },
+  {
+   "id": "w11",
+   "week": 11,
+   "dates": "25–31 Jan",
+   "pattern": "Trees (basics)",
+   "mastered": false
+  },
+  {
+   "id": "w12",
+   "week": 12,
+   "dates": "1–7 Feb",
+   "pattern": "Revision: mixed easy sets",
+   "mastered": false
+  },
+  {
+   "id": "w13",
+   "week": 13,
+   "dates": "8–14 Feb",
+   "pattern": "Interview prep",
+   "mastered": false
+  }
+ ],
+ "skills": [
+  {
+   "badge": "Novice",
+   "best": null,
+   "due": "2026-12-06",
+   "name": "Computational Thinking L1",
+   "order": 1,
+   "status": "open",
+   "id": "ct-l1"
+  },
+  {
+   "badge": "Novice",
+   "best": null,
+   "due": "2026-12-06",
+   "name": "CS Fundamentals L1",
+   "order": 2,
+   "status": "open",
+   "id": "csf-l1"
+  },
+  {
+   "badge": "Novice",
+   "best": null,
+   "due": "2026-12-06",
+   "name": "Quantitative Reasoning L1",
+   "order": 3,
+   "status": "open",
+   "id": "qr-l1"
+  },
+  {
+   "badge": "Novice",
+   "best": null,
+   "due": "2026-12-06",
+   "name": "Critical Thinking & Comm L2",
+   "order": 4,
+   "status": "open",
+   "id": "ctc-l2"
+  },
+  {
+   "badge": "Novice",
+   "best": null,
+   "name": "Applied Gen AI L1",
+   "order": 5,
+   "status": "open",
+   "id": "genai-l1"
+  },
+  {
+   "badge": "—",
+   "best": null,
+   "name": "Critical Thinking & Comm L1",
+   "order": 6,
+   "status": "open",
+   "id": "ctc-l1"
+  },
+  {
+   "badge": "Specialist",
+   "best": null,
+   "due": "2027-01-03",
+   "name": "Computational Thinking L2",
+   "order": 7,
+   "status": "open",
+   "id": "ct-l2"
+  },
+  {
+   "badge": "Specialist",
+   "best": null,
+   "due": "2027-01-24",
+   "name": "Applied Gen AI L2",
+   "order": 8,
+   "status": "open",
+   "id": "genai-l2"
+  },
+  {
+   "badge": "Miles",
+   "best": null,
+   "due": "2027-02-14",
+   "name": "Computational Thinking L3",
+   "order": 9,
+   "status": "open",
+   "id": "ct-l3"
+  },
+  {
+   "badge": "Miles",
+   "best": null,
+   "due": "2027-02-28",
+   "name": "Applied Gen AI L3",
+   "order": 10,
+   "status": "open",
+   "id": "genai-l3"
+  }
+ ],
+ "quests": [
+  {
+   "id": "q1",
+   "title": "Apply for Coursera financial aid: Math for ML + Deep Learning Specialization",
+   "due": "2026-11-22",
+   "done": false
+  },
+  {
+   "id": "q2",
+   "title": "Send Nikhil your GRIT skill scores so the tracker shows them",
+   "due": "2026-11-20",
+   "done": false
+  }
+ ]
+}

@@ -1,0 +1,409 @@
+{
+ "tracks": [
+  {
+   "id": "grit",
+   "name": "GRIT",
+   "color": "#6d4fe0"
+  },
+  {
+   "id": "skill",
+   "name": "Skills",
+   "color": "#c28a00"
+  },
+  {
+   "id": "proj",
+   "name": "Projects",
+   "color": "#0c8599"
+  },
+  {
+   "id": "intern",
+   "name": "Internship",
+   "color": "#e8590c"
+  },
+  {
+   "id": "fellow",
+   "name": "Fellowships",
+   "color": "#1c7ed6"
+  },
+  {
+   "id": "gsoc",
+   "name": "Open source",
+   "color": "#2b8a3e"
+  }
+ ],
+ "milestones": [
+  {
+   "id": "srfp",
+   "track": "fellow",
+   "short": "SRFP",
+   "name": "IAS–INSA–NASI Summer Research Fellowship 2027",
+   "due": "2026-11-30",
+   "verified": "2026-11-15",
+   "url": "https://webjapps.ias.ac.in/fellowship2027/application_instructions.jsp",
+   "why": "Paid 2-month research stint (₹12,500/month + travel). Open to 2nd-year BTech. Worth applying even as a beginner — selection is by marks + statement + recommendation.",
+   "items": [
+    {
+     "id": "elig",
+     "t": "Check: core-subject average ≥ 65% from Class X onward"
+    },
+    {
+     "id": "writeup",
+     "t": "150–250 word interest statement (AI / ML)"
+    },
+    {
+     "id": "teacher",
+     "t": "One teacher agrees to recommend"
+    },
+    {
+     "id": "scans",
+     "t": "Scan mark sheets (JPEG ≤ 700 KB)"
+    },
+    {
+     "id": "submit",
+     "t": "Submit before 30 Nov"
+    }
+   ],
+   "done": []
+  },
+  {
+   "id": "surge",
+   "track": "fellow",
+   "short": "SURGE",
+   "name": "SURGE, IIT Kanpur",
+   "due": "2027-02-15",
+   "verified": null,
+   "url": "https://surge.iitk.ac.in/",
+   "why": "Stipended IIT summer research internship. Deadline usually Jan–Feb — verify.",
+   "items": [
+    {
+     "id": "area",
+     "t": "Pick 2 project areas"
+    },
+    {
+     "id": "sop",
+     "t": "Statement of purpose"
+    },
+    {
+     "id": "apply",
+     "t": "Apply"
+    }
+   ],
+   "done": []
+  },
+  {
+   "id": "srip",
+   "track": "fellow",
+   "short": "SRIP",
+   "name": "SRIP, IIT Gandhinagar",
+   "due": "2027-03-05",
+   "verified": null,
+   "url": "https://srip.iitgn.ac.in/",
+   "why": "IIT summer research; 2026 deadline was 5 March — expect similar.",
+   "items": [
+    {
+     "id": "projects",
+     "t": "Shortlist 3 projects"
+    },
+    {
+     "id": "apply",
+     "t": "Apply"
+    }
+   ],
+   "done": []
+  },
+  {
+   "id": "py",
+   "track": "skill",
+   "short": "Python",
+   "name": "Python fundamentals done (CS50P core + OOP)",
+   "due": "2026-12-06",
+   "url": "https://cs50.harvard.edu/python/",
+   "verified": null,
+   "why": "The base for everything else.",
+   "items": [
+    {
+     "id": "p0",
+     "t": "PSets 0–1"
+    },
+    {
+     "id": "p2",
+     "t": "PSets 2–3"
+    },
+    {
+     "id": "p4",
+     "t": "PSets 4, 6, 8 (libraries, files, OOP)"
+    },
+    {
+     "id": "git",
+     "t": "Git + GitHub workflow"
+    }
+   ],
+   "done": []
+  },
+  {
+   "id": "kaggle5",
+   "track": "skill",
+   "short": "5 certs",
+   "name": "5 Kaggle Learn certificates",
+   "due": "2027-01-03",
+   "url": "https://www.kaggle.com/learn",
+   "verified": null,
+   "why": "Free, recognised proof of skills for your resume.",
+   "items": [
+    {
+     "id": "python",
+     "t": "Python"
+    },
+    {
+     "id": "pandas",
+     "t": "Pandas"
+    },
+    {
+     "id": "viz",
+     "t": "Data Visualization"
+    },
+    {
+     "id": "ml",
+     "t": "Intro to ML"
+    },
+    {
+     "id": "iml",
+     "t": "Intermediate ML"
+    }
+   ],
+   "done": []
+  },
+  {
+   "id": "torch",
+   "track": "skill",
+   "short": "PyTorch",
+   "name": "PyTorch: MNIST + Fashion-MNIST trained",
+   "due": "2027-01-17",
+   "url": "https://pytorch.org/tutorials/beginner/basics/intro.html",
+   "verified": null,
+   "why": "PyTorch is the #1 skill in ML job posts.",
+   "items": [
+    {
+     "id": "tut",
+     "t": "Official tutorial done"
+    },
+    {
+     "id": "mnist",
+     "t": "MNIST > 97%"
+    },
+    {
+     "id": "fmnist",
+     "t": "Fashion-MNIST experiment log"
+    }
+   ],
+   "done": []
+  },
+  {
+   "id": "dsa50",
+   "track": "skill",
+   "short": "DSA 50",
+   "name": "50 LeetCode problems (Easy + first Mediums)",
+   "due": "2027-02-14",
+   "url": "https://leetcode.com/problemset/",
+   "verified": null,
+   "why": "Clears the coding rounds of most internship interviews.",
+   "auto": "dsa",
+   "target": 50,
+   "items": [],
+   "done": []
+  },
+  {
+   "id": "dml20",
+   "track": "skill",
+   "short": "deep-ml 20",
+   "name": "20 deep-ml problems",
+   "due": "2027-02-14",
+   "url": "https://www.deep-ml.com/",
+   "verified": null,
+   "why": "ML from scratch in NumPy — impresses interviewers.",
+   "auto": "deepml",
+   "target": 20,
+   "items": [],
+   "done": []
+  },
+  {
+   "id": "pa",
+   "track": "proj",
+   "short": "Project A",
+   "name": "Project A: public EDA notebook on a real dataset",
+   "due": "2026-12-20",
+   "url": null,
+   "verified": null,
+   "why": "First portfolio piece: shows you can work with real data.",
+   "items": [
+    {
+     "id": "data",
+     "t": "Dataset chosen + loaded"
+    },
+    {
+     "id": "eda",
+     "t": "5 questions, 5 charts, 5 findings"
+    },
+    {
+     "id": "pub",
+     "t": "Published on Kaggle + GitHub"
+    }
+   ],
+   "done": []
+  },
+  {
+   "id": "pb",
+   "track": "proj",
+   "short": "Project B",
+   "name": "Project B: own image classifier, live on Hugging Face Spaces",
+   "due": "2027-01-31",
+   "url": null,
+   "verified": null,
+   "why": "Your strongest internship signal: a model anyone can try.",
+   "items": [
+    {
+     "id": "data",
+     "t": "Own dataset collected"
+    },
+    {
+     "id": "train",
+     "t": "Fine-tuned ResNet + confusion matrix"
+    },
+    {
+     "id": "live",
+     "t": "Live on HF Spaces"
+    },
+    {
+     "id": "readme",
+     "t": "README + 60 s demo video"
+    }
+   ],
+   "done": []
+  },
+  {
+   "id": "pc",
+   "track": "proj",
+   "short": "Project C",
+   "name": "Project C: fine-tuned text model on Hugging Face Hub",
+   "due": "2027-02-07",
+   "url": "https://huggingface.co/learn",
+   "verified": null,
+   "why": "Shows you can work with language models — the hottest skill.",
+   "items": [
+    {
+     "id": "course",
+     "t": "HF course ch.1–3"
+    },
+    {
+     "id": "ft",
+     "t": "Fine-tuned + compared to a baseline"
+    },
+    {
+     "id": "card",
+     "t": "Published with model card"
+    }
+   ],
+   "done": []
+  },
+  {
+   "id": "resume",
+   "track": "intern",
+   "short": "Resume",
+   "name": "Resume + GitHub + LinkedIn ready",
+   "due": "2027-02-07",
+   "url": null,
+   "verified": null,
+   "why": "Projects first. Every repo has a README.",
+   "items": [
+    {
+     "id": "resume",
+     "t": "1-page resume"
+    },
+    {
+     "id": "github",
+     "t": "3 pinned repos with READMEs"
+    },
+    {
+     "id": "linkedin",
+     "t": "LinkedIn + 1 project post"
+    }
+   ],
+   "done": []
+  },
+  {
+   "id": "apps20",
+   "track": "intern",
+   "short": "20 apps",
+   "name": "20 internship applications + 2 mock interviews",
+   "due": "2027-02-14",
+   "url": null,
+   "verified": null,
+   "why": "ML / data / AI startup internships and research labs, each with a 3-line personal note + demo link.",
+   "items": [
+    {
+     "id": "list",
+     "t": "20 targets listed"
+    },
+    {
+     "id": "10",
+     "t": "10 sent"
+    },
+    {
+     "id": "20",
+     "t": "20 sent"
+    },
+    {
+     "id": "mock",
+     "t": "2 mock interviews done"
+    }
+   ],
+   "done": []
+  },
+  {
+   "id": "offer",
+   "track": "intern",
+   "short": "Offer",
+   "name": "Summer internship offer",
+   "due": "2027-04-30",
+   "url": null,
+   "verified": null,
+   "why": "The goal of these 3 months.",
+   "items": [
+    {
+     "id": "interview",
+     "t": "First interview"
+    },
+    {
+     "id": "offer",
+     "t": "Offer accepted"
+    }
+   ],
+   "done": []
+  },
+  {
+   "id": "oss",
+   "track": "gsoc",
+   "short": "1st PR",
+   "name": "Open source: first merged PR (GSoC 2027 only if ready)",
+   "due": "2027-03-15",
+   "url": "https://summerofcode.withgoogle.com/",
+   "verified": null,
+   "why": "Optional stretch. One merged PR is a strong resume line; GSoC 2027 applications run ~late March.",
+   "items": [
+    {
+     "id": "org",
+     "t": "Pick one beginner-friendly Python/ML project"
+    },
+    {
+     "id": "issue",
+     "t": "Claim a good-first-issue"
+    },
+    {
+     "id": "merged",
+     "t": "PR merged"
+    }
+   ],
+   "done": []
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "name": "Harika",
+ "dsaWeek": 5,
+ "dsaTotal": 50,
+ "stars": [
+  2,
+  4,
+  5
+ ],
+ "dmlTotal": 20,
+ "dmlWeek": 3,
+ "mainLabel": "Main track: Python \u2192 data \u2192 ML \u2192 deep learning",
+ "mainShort": "Main track",
+ "focusLabel": "Main focus",
+ "dsaLabel": "Coding practice"
+}
