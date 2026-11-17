@@ -115,9 +115,9 @@
    "id": "py",
    "track": "skill",
    "short": "Python",
-   "name": "Python fundamentals done (CS50P core + OOP)",
+   "name": "Python fundamentals done (Exercism Python: 30 exercises + OOP)",
    "due": "2026-12-06",
-   "url": "https://cs50.harvard.edu/python/",
+   "url": "https://exercism.org/tracks/python",
    "verified": null,
    "why": "The base for everything else.",
    "items": [

@@ -1,8 +1,8 @@
 {
  "method": [
   {
-   "step": "1 · Watch, then type",
-   "text": "Watch the lecture section once. Then close it and type the example code yourself from memory. Typing (not copy-paste) is how syntax sticks."
+   "step": "1 · Read, then type",
+   "text": "On Exercism, read the exercise's Introduction (the concept explanation) once. Then close it and type the code yourself in the browser editor. Typing (not copy-paste) is how syntax sticks. Press Run Tests — red tests tell you exactly what is wrong."
   },
   {
    "step": "2 · Try alone first (20 min)",
@@ -22,42 +22,42 @@
   },
   {
    "step": "6 · Push to GitHub daily",
-   "text": "Every solution and notebook goes to GitHub the same day. Your tracker reads it, and recruiters will too."
+   "text": "When the Exercism tests pass, save the same code as python/<exercise-slug>.py in harika-sprint (e.g. python/guidos-gorgeous-lasagna.py) and push. Your tracker ticks it off, and recruiters will see it."
   }
  ],
  "mathMethod": "MAIN TRACK. Watch → code along → change one thing and see what breaks → explain it in 3 sentences. If you can't explain it, rewatch that part only.",
  "weeks": [
   {
    "week": 1,
-   "pattern": "Python 1: variables, functions, conditionals",
-   "phase": "A · Python from zero",
+   "pattern": "Python 1: basics, numbers, booleans, if/else",
+   "phase": "A · Python from zero (Exercism)",
    "dl": {
-    "focus": "Python from zero: your first programs",
-    "build": "Push all PSet 0–1 solutions to your practice repo (one file per problem, named like the problem, e.g. indoor.py)",
+    "focus": "Python from zero on Exercism",
+    "build": "All week-1 Exercism solutions in harika-sprint/python/ (one file per exercise, named by its slug)",
     "pays": "Every DL job starts with Python fluency — this week is the foundation."
    },
-   "goal": "Write small Python programs confidently: input/output, variables, functions, if/else. Set up your tools.",
-   "idea": "A program is a list of steps the computer follows exactly. Functions are named, reusable steps. if/else lets the program choose.",
-   "template": "def greet(name):\n    return f\"Hello, {name}!\"\n\nage = int(input(\"Age? \"))\nif age >= 18:\n    print(greet(\"adult\"))\nelse:\n    print(greet(\"student\"))",
+   "goal": "Write small Python functions confidently: variables, numbers, booleans, if/else — every one checked by Exercism's tests.",
+   "idea": "A program is a list of steps the computer follows exactly. Functions are named, reusable steps that RETURN a result. if/else lets the program choose.",
+   "template": "def is_adult(age):\n    \"\"\"Return True if age is 18 or more.\"\"\"\n    return age >= 18\n\ndef fare(age):\n    if is_adult(age):\n        return 100\n    return 50",
    "mistakes": [
-    "Forgetting that input() always returns a string",
+    "print() instead of return — Exercism tests check what you RETURN",
     "Mixing tabs and spaces (indentation errors)",
-    "Printing inside a function when you should return"
+    "Not reading the failing test's message — it tells you the expected value"
    ],
    "schedule": "Break (16–29 Nov): 16:00–17:30 main track · 18:00–18:30 DSA/Python practice · 21:00–21:30 GRIT/aptitude",
    "days": [
     {
      "date": "2026-11-16",
      "day": "Mon",
-     "math": "Install Python + VS Code; create a GitHub account; apply for Coursera financial aid (Math for ML + Deep Learning Specialization)",
-     "dsa": "Python practice is your DSA this week (CS50P problems above)",
+     "math": "Setup: Exercism account → join the Python track (Learning Mode ON) · install Python + VS Code · GitHub account · apply for Coursera financial aid",
+     "dsa": "Python practice is your DSA this week (Exercism exercises above)",
      "deepml": "— (starts week 4)",
      "cs": "GRIT: read your skill reports; note CT L1 + CS Fund requirements"
     },
     {
      "date": "2026-11-17",
      "day": "Tue",
-     "math": "CS50P Lecture 0: functions, variables",
+     "math": "Exercism: Hello World + Guido's Gorgeous Lasagna (basics: variables, functions)",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Quant: percentages basics (15 min practice)"
@@ -65,7 +65,7 @@
     {
      "date": "2026-11-18",
      "day": "Wed",
-     "math": "CS50P PSet 0: Indoor Voice, Playback Speed, Making Faces",
+     "math": "Exercism: Ghost Gobble Arcade Game (booleans) + Two Fer",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Book GRIT CT L1 slot (after Python basics — late Nov)"
@@ -73,7 +73,7 @@
     {
      "date": "2026-11-19",
      "day": "Thu",
-     "math": "CS50P PSet 0: Einstein, Tip Calculator",
+     "math": "Exercism: Currency Exchange (numbers, int vs float)",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Quant: ratios"
@@ -81,7 +81,7 @@
     {
      "date": "2026-11-20",
      "day": "Fri",
-     "math": "CS50P Lecture 1: conditionals",
+     "math": "Exercism: Meltdown Mitigation (if/elif/else) + Leap",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "CS Fund: what is an OS, what is a database (intro videos)"
@@ -89,7 +89,7 @@
     {
      "date": "2026-11-21",
      "day": "Sat",
-     "math": "Weekend (3 h): CS50P PSet 1: Deep Thought, Home Federal Savings Bank, File Extensions",
+     "math": "Weekend (3 h): Black Jack (comparisons) + Raindrops + Triangle",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Rest"
@@ -97,7 +97,7 @@
     {
      "date": "2026-11-22",
      "day": "Sun",
-     "math": "PSet 1: Math Interpreter, Meal Time + write 'what I learned this week'",
+     "math": "Redo Lasagna + Meltdown Mitigation from a blank file, no peeking · write 'what I learned this week'",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Weekly review 22:00 (15 min)"
@@ -105,137 +105,137 @@
    ],
    "problems": [
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Indoor Voice",
+     "name": "Hello World",
      "diff": "Easy",
-     "slug": "indoor",
-     "url": "https://cs50.harvard.edu/python/psets/0/indoor/"
+     "slug": "hello-world",
+     "url": "https://exercism.org/tracks/python/exercises/hello-world"
     },
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Playback Speed",
+     "name": "Guido's Gorgeous Lasagna",
      "diff": "Easy",
-     "slug": "playback",
-     "url": "https://cs50.harvard.edu/python/psets/0/playback/"
+     "slug": "guidos-gorgeous-lasagna",
+     "url": "https://exercism.org/tracks/python/exercises/guidos-gorgeous-lasagna"
     },
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Making Faces",
+     "name": "Ghost Gobble Arcade Game",
      "diff": "Easy",
-     "slug": "faces",
-     "url": "https://cs50.harvard.edu/python/psets/0/faces/"
+     "slug": "ghost-gobble-arcade-game",
+     "url": "https://exercism.org/tracks/python/exercises/ghost-gobble-arcade-game"
     },
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Einstein",
+     "name": "Two Fer",
      "diff": "Easy",
-     "slug": "einstein",
-     "url": "https://cs50.harvard.edu/python/psets/0/einstein/"
+     "slug": "two-fer",
+     "url": "https://exercism.org/tracks/python/exercises/two-fer"
     },
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Tip Calculator",
+     "name": "Currency Exchange",
      "diff": "Easy",
-     "slug": "tip",
-     "url": "https://cs50.harvard.edu/python/psets/0/tip/"
+     "slug": "currency-exchange",
+     "url": "https://exercism.org/tracks/python/exercises/currency-exchange"
     },
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Deep Thought",
+     "name": "Meltdown Mitigation",
      "diff": "Easy",
-     "slug": "deep",
-     "url": "https://cs50.harvard.edu/python/psets/1/deep/"
+     "slug": "meltdown-mitigation",
+     "url": "https://exercism.org/tracks/python/exercises/meltdown-mitigation"
     },
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Home Federal Savings Bank",
+     "name": "Leap",
      "diff": "Easy",
-     "slug": "bank",
-     "url": "https://cs50.harvard.edu/python/psets/1/bank/"
+     "slug": "leap",
+     "url": "https://exercism.org/tracks/python/exercises/leap"
     },
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "File Extensions",
+     "name": "Black Jack",
      "diff": "Easy",
-     "slug": "extensions",
-     "url": "https://cs50.harvard.edu/python/psets/1/extensions/"
+     "slug": "black-jack",
+     "url": "https://exercism.org/tracks/python/exercises/black-jack"
     },
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Math Interpreter",
+     "name": "Raindrops",
      "diff": "Easy",
-     "slug": "interpreter",
-     "url": "https://cs50.harvard.edu/python/psets/1/interpreter/"
+     "slug": "raindrops",
+     "url": "https://exercism.org/tracks/python/exercises/raindrops"
     },
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Meal Time",
+     "name": "Triangle",
      "diff": "Easy",
-     "slug": "meal",
-     "url": "https://cs50.harvard.edu/python/psets/1/meal/"
+     "slug": "triangle",
+     "url": "https://exercism.org/tracks/python/exercises/triangle"
     }
    ],
    "mastery": "Write a program from a blank file that asks for 3 numbers and prints the largest and the average — in 15 minutes, no help.",
    "resources": [
     {
-     "t": "📖 Learn: CS50P — Harvard's Python course (main course)",
-     "u": "https://cs50.harvard.edu/python/"
+     "t": "✍️ Practice: Exercism Python track — MAIN SITE: learn a concept, solve it in the browser, tests check you (Learning Mode)",
+     "u": "https://exercism.org/tracks/python"
     },
     {
-     "t": "✍️ Practice: futurecoder — interactive beginner Python, gives hints (if a CS50P lecture felt fast)",
-     "u": "https://futurecoder.io/"
-    },
-    {
-     "t": "✍️ Practice: Kaggle Learn: Intro to Programming (gentlest start, certificate)",
-     "u": "https://www.kaggle.com/learn/intro-to-programming"
+     "t": "📖 Learn: Exercism Python concepts page — read the concept before its exercise",
+     "u": "https://exercism.org/tracks/python/concepts"
     },
     {
      "t": "👀 See it: Python Tutor — paste code, watch it run line by line (use when confused)",
      "u": "https://pythontutor.com/"
+    },
+    {
+     "t": "📖 Learn: CS50P lectures (optional video if an Exercism concept is unclear)",
+     "u": "https://cs50.harvard.edu/python/"
     }
    ]
   },
   {
    "week": 2,
-   "pattern": "Python 2: loops, lists, dicts, errors",
-   "phase": "A · Python from zero",
+   "pattern": "Python 2: strings, lists, loops, dicts, sets",
+   "phase": "A · Python from zero (Exercism)",
    "dl": {
-    "focus": "Loops, data structures, handling errors",
-    "build": "PSet 2–3 solutions on GitHub",
+    "focus": "Text, collections and loops on Exercism",
+    "build": "All week-2 Exercism solutions in harika-sprint/python/",
     "pays": "Data processing with lists/dicts is 50% of real ML code."
    },
-   "goal": "Use loops, lists and dictionaries to process data; handle bad input with try/except.",
-   "idea": "Loops repeat steps; lists hold ordered items; dicts map keys to values (like a phone book). try/except stops bad input from crashing your program.",
-   "template": "scores = {\"asha\": 82, \"ravi\": 91}\nfor name, s in scores.items():\n    print(name, s)\n\ntry:\n    n = int(input(\"Number: \"))\nexcept ValueError:\n    print(\"Not a number\")",
+   "goal": "Process text and data with strings, lists, loops, tuples, dictionaries and sets.",
+   "idea": "Loops repeat steps; lists hold ordered items; dicts map keys to values (like a phone book); sets keep unique items. Almost all data code is these four.",
+   "template": "counts = {}\nfor word in \"the cat and the hat\".split():\n    counts[word] = counts.get(word, 0) + 1\nprint(counts)            # {'the': 2, ...}\nprint(set([1, 1, 2]))     # {1, 2}",
    "mistakes": [
     "Changing a list while looping over it",
-    "KeyError: check `if key in d` or use d.get(key)",
-    "Catching every exception with bare except:"
+    "KeyError: check `if key in d` or use d.get(key, default)",
+    "Strings are immutable — s.upper() returns a NEW string"
    ],
    "schedule": "Break (16–29 Nov): 16:00–17:30 main track · 18:00–18:30 DSA/Python practice · 21:00–21:30 GRIT/aptitude",
    "days": [
     {
      "date": "2026-11-23",
      "day": "Mon",
-     "math": "CS50P Lecture 2: loops",
-     "dsa": "Python practice is your DSA this week (CS50P problems above)",
+     "math": "Exercism: Little Sister's Vocabulary (strings) + Reverse String",
+     "dsa": "Python practice is your DSA this week (Exercism exercises above)",
      "deepml": "— (starts week 4)",
      "cs": "CT L1 practice: Python logic questions"
     },
     {
      "date": "2026-11-24",
      "day": "Tue",
-     "math": "PSet 2: camelCase, Coke Machine, Just setting up my twttr",
+     "math": "Exercism: Little Sister's Essay (string methods) + Pangram",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Quant: averages"
@@ -243,7 +243,7 @@
     {
      "date": "2026-11-25",
      "day": "Wed",
-     "math": "PSet 2: Vanity Plates, Nutrition Facts",
+     "math": "Exercism: Card Games (lists) + Chaitana's Colossal Coaster (list methods)",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "CS Fund: DBMS basics (tables, keys, SQL SELECT)"
@@ -251,7 +251,7 @@
     {
      "date": "2026-11-26",
      "day": "Thu",
-     "math": "CS50P Lecture 3: exceptions",
+     "math": "Exercism: Making the Grade (loops) + Isogram",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "CT L1 practice"
@@ -259,7 +259,7 @@
     {
      "date": "2026-11-27",
      "day": "Fri",
-     "math": "PSet 3: Fuel Gauge, Felipe's Taqueria",
+     "math": "Exercism: Tisbury Treasure Hunt (tuples) + Inventory Management (dicts)",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Quant: profit & loss"
@@ -267,7 +267,7 @@
     {
      "date": "2026-11-28",
      "day": "Sat",
-     "math": "Weekend (3 h): PSet 3: Grocery List, Outdated",
+     "math": "Weekend (3 h): Mecha Munch Management (dict methods) + Cater Waiter (sets) + Word Count",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Rest"
@@ -275,7 +275,7 @@
     {
      "date": "2026-11-29",
      "day": "Sun",
-     "math": "Review: redo the 2 hardest problems of the week from blank",
+     "math": "Redo the 2 hardest of the week from a blank file · Anagram if time",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Weekly review"
@@ -283,109 +283,145 @@
    ],
    "problems": [
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "camelCase",
+     "name": "Little Sister's Vocabulary",
      "diff": "Easy",
-     "slug": "camel",
-     "url": "https://cs50.harvard.edu/python/psets/2/camel/"
+     "slug": "little-sisters-vocab",
+     "url": "https://exercism.org/tracks/python/exercises/little-sisters-vocab"
     },
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Coke Machine",
+     "name": "Reverse String",
      "diff": "Easy",
-     "slug": "coke",
-     "url": "https://cs50.harvard.edu/python/psets/2/coke/"
+     "slug": "reverse-string",
+     "url": "https://exercism.org/tracks/python/exercises/reverse-string"
     },
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Just setting up my twttr",
+     "name": "Little Sister's Essay",
      "diff": "Easy",
-     "slug": "twttr",
-     "url": "https://cs50.harvard.edu/python/psets/2/twttr/"
+     "slug": "little-sisters-essay",
+     "url": "https://exercism.org/tracks/python/exercises/little-sisters-essay"
     },
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Vanity Plates",
+     "name": "Pangram",
      "diff": "Easy",
-     "slug": "plates",
-     "url": "https://cs50.harvard.edu/python/psets/2/plates/"
+     "slug": "pangram",
+     "url": "https://exercism.org/tracks/python/exercises/pangram"
     },
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Nutrition Facts",
+     "name": "Card Games",
      "diff": "Easy",
-     "slug": "nutrition",
-     "url": "https://cs50.harvard.edu/python/psets/2/nutrition/"
+     "slug": "card-games",
+     "url": "https://exercism.org/tracks/python/exercises/card-games"
     },
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Fuel Gauge",
+     "name": "Chaitana's Colossal Coaster",
      "diff": "Easy",
-     "slug": "fuel",
-     "url": "https://cs50.harvard.edu/python/psets/3/fuel/"
+     "slug": "chaitanas-colossal-coaster",
+     "url": "https://exercism.org/tracks/python/exercises/chaitanas-colossal-coaster"
     },
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Felipe's Taqueria",
+     "name": "Making the Grade",
      "diff": "Easy",
-     "slug": "taqueria",
-     "url": "https://cs50.harvard.edu/python/psets/3/taqueria/"
+     "slug": "making-the-grade",
+     "url": "https://exercism.org/tracks/python/exercises/making-the-grade"
     },
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Grocery List",
+     "name": "Isogram",
      "diff": "Easy",
-     "slug": "grocery",
-     "url": "https://cs50.harvard.edu/python/psets/3/grocery/"
+     "slug": "isogram",
+     "url": "https://exercism.org/tracks/python/exercises/isogram"
     },
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Outdated",
+     "name": "Tisbury Treasure Hunt",
      "diff": "Easy",
-     "slug": "outdated",
-     "url": "https://cs50.harvard.edu/python/psets/3/outdated/"
+     "slug": "tisbury-treasure-hunt",
+     "url": "https://exercism.org/tracks/python/exercises/tisbury-treasure-hunt"
+    },
+    {
+     "src": "Exercism",
+     "n": null,
+     "name": "Inventory Management",
+     "diff": "Easy",
+     "slug": "inventory-management",
+     "url": "https://exercism.org/tracks/python/exercises/inventory-management"
+    },
+    {
+     "src": "Exercism",
+     "n": null,
+     "name": "Mecha Munch Management",
+     "diff": "Easy",
+     "slug": "mecha-munch-management",
+     "url": "https://exercism.org/tracks/python/exercises/mecha-munch-management"
+    },
+    {
+     "src": "Exercism",
+     "n": null,
+     "name": "Cater Waiter",
+     "diff": "Easy",
+     "slug": "cater-waiter",
+     "url": "https://exercism.org/tracks/python/exercises/cater-waiter"
+    },
+    {
+     "src": "Exercism",
+     "n": null,
+     "name": "Word Count",
+     "diff": "Medium",
+     "slug": "word-count",
+     "url": "https://exercism.org/tracks/python/exercises/word-count"
+    },
+    {
+     "src": "Exercism",
+     "n": null,
+     "name": "Anagram",
+     "diff": "Easy",
+     "slug": "anagram",
+     "url": "https://exercism.org/tracks/python/exercises/anagram"
     }
    ],
    "mastery": "From blank: read words until the user types 'done', then print each word with its count, sorted by count. ≤20 min.",
    "resources": [
     {
-     "t": "📖 Learn: CS50P — Harvard's Python course (main course)",
-     "u": "https://cs50.harvard.edu/python/"
-    },
-    {
-     "t": "✍️ Practice: W3Schools Python exercises — 2-minute fill-in-the-blank drills",
-     "u": "https://www.w3schools.com/python/python_exercises.asp"
-    },
-    {
-     "t": "✍️ Practice: Practice Python — short beginner exercises with solutions",
-     "u": "https://www.practicepython.org/"
+     "t": "✍️ Practice: Exercism Python track — MAIN SITE: learn a concept, solve it in the browser, tests check you (Learning Mode)",
+     "u": "https://exercism.org/tracks/python"
     },
     {
      "t": "👀 See it: Python Tutor — paste code, watch it run line by line (use when confused)",
      "u": "https://pythontutor.com/"
+    },
+    {
+     "t": "📖 Learn: CS50P lectures (optional video if an Exercism concept is unclear)",
+     "u": "https://cs50.harvard.edu/python/"
     }
    ]
   },
   {
    "week": 3,
-   "pattern": "Python 3: libraries, files, OOP, Git",
-   "phase": "A · Python from zero",
+   "pattern": "Python 3: classes, unpacking, generators, files, Git",
+   "phase": "A · Python from zero (Exercism)",
    "dl": {
-    "focus": "Libraries, files, classes + Git/GitHub",
+    "focus": "Classes + Git/GitHub",
     "build": "Mini project: CLI expense tracker (class + CSV + README) on GitHub",
     "pays": "A clean GitHub with READMEs is what recruiters open first."
    },
-   "goal": "Use libraries, read/write files, write simple classes, and work with Git like a developer.",
-   "idea": "Libraries are other people's code you import. A class bundles data + functions (methods) — every PyTorch model you'll write is a class.",
+   "goal": "Write simple classes, use unpacking and generators, read/write files, and work with Git like a developer.",
+   "idea": "A class bundles data + functions (methods) — every PyTorch model you'll write is a class. Generators produce values one at a time (that's how data loaders feed models).",
    "template": "class Student:\n    def __init__(self, name, marks):\n        self.name, self.marks = name, marks\n\n    def average(self):\n        return sum(self.marks) / len(self.marks)\n\ns = Student(\"Harika\", [90, 85, 88])\nprint(s.average())",
    "mistakes": [
     "Forgetting self in methods",
@@ -397,15 +433,15 @@
     {
      "date": "2026-11-30",
      "day": "Mon",
-     "math": "CS50P Lecture 4: libraries; PSet 4: Emojize, Adieu",
-     "dsa": "Python practice is your DSA this week (CS50P problems above)",
+     "math": "Exercism: Locomotive Engineer (unpacking, *args/**kwargs)",
+     "dsa": "Python practice is your DSA this week (Exercism exercises above)",
      "deepml": "— (starts week 4)",
      "cs": "GRIT CT L1 attempt"
     },
     {
      "date": "2026-12-01",
      "day": "Tue",
-     "math": "PSet 4: Guessing Game, Little Professor",
+     "math": "Exercism: Ellen's Alien Game (classes)",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "CS Fund: OS basics (process, thread)"
@@ -413,7 +449,7 @@
     {
      "date": "2026-12-02",
      "day": "Wed",
-     "math": "CS50P Lecture 6: file I/O; PSet 6: Lines of Code, Pizza Py",
+     "math": "Exercism: Space Age (class practice) + Grains",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Quant mixed set"
@@ -421,7 +457,7 @@
     {
      "date": "2026-12-03",
      "day": "Thu",
-     "math": "CS50P Lecture 8: OOP (classes)",
+     "math": "Exercism: Plane Tickets (generators)",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "CS Fund: networks basics (what happens when you open a website)"
@@ -429,7 +465,7 @@
     {
      "date": "2026-12-04",
      "day": "Fri",
-     "math": "PSet 8: Cookie Jar",
+     "math": "Files: CS50P Lecture 6 (file I/O) first 40 min — read/write a CSV with `with open` + csv module",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "GRIT CS Fund L1 / QR L1 attempt (target 6 Dec)"
@@ -445,7 +481,7 @@
     {
      "date": "2026-12-06",
      "day": "Sun",
-     "math": "Mini project: a CLI expense tracker with a class + CSV file, pushed with a README",
+     "math": "Mini project: a CLI expense tracker with a class + CSV file, pushed with a README · Scrabble Score if time",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Weekly review"
@@ -453,67 +489,59 @@
    ],
    "problems": [
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Emojize",
+     "name": "Locomotive Engineer",
      "diff": "Easy",
-     "slug": "emojize",
-     "url": "https://cs50.harvard.edu/python/psets/4/emojize/"
+     "slug": "locomotive-engineer",
+     "url": "https://exercism.org/tracks/python/exercises/locomotive-engineer"
     },
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Adieu, Adieu",
+     "name": "Ellen's Alien Game",
      "diff": "Easy",
-     "slug": "adieu",
-     "url": "https://cs50.harvard.edu/python/psets/4/adieu/"
+     "slug": "ellens-alien-game",
+     "url": "https://exercism.org/tracks/python/exercises/ellens-alien-game"
     },
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Guessing Game",
+     "name": "Space Age",
      "diff": "Easy",
-     "slug": "game",
-     "url": "https://cs50.harvard.edu/python/psets/4/game/"
+     "slug": "space-age",
+     "url": "https://exercism.org/tracks/python/exercises/space-age"
     },
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Little Professor",
+     "name": "Grains",
      "diff": "Easy",
-     "slug": "professor",
-     "url": "https://cs50.harvard.edu/python/psets/4/professor/"
+     "slug": "grains",
+     "url": "https://exercism.org/tracks/python/exercises/grains"
     },
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Lines of Code",
+     "name": "Plane Tickets",
      "diff": "Easy",
-     "slug": "lines",
-     "url": "https://cs50.harvard.edu/python/psets/6/lines/"
+     "slug": "plane-tickets",
+     "url": "https://exercism.org/tracks/python/exercises/plane-tickets"
     },
     {
-     "src": "CS50P",
+     "src": "Exercism",
      "n": null,
-     "name": "Pizza Py",
+     "name": "Scrabble Score",
      "diff": "Easy",
-     "slug": "pizza",
-     "url": "https://cs50.harvard.edu/python/psets/6/pizza/"
-    },
-    {
-     "src": "CS50P",
-     "n": null,
-     "name": "Cookie Jar",
-     "diff": "Easy",
-     "slug": "jar",
-     "url": "https://cs50.harvard.edu/python/psets/8/jar/"
+     "slug": "scrabble-score",
+     "url": "https://exercism.org/tracks/python/exercises/scrabble-score"
     }
    ],
    "mastery": "Write a class BankAccount with deposit/withdraw/balance, raising an error on overdraft, plus 3 tests. ≤25 min.",
    "resources": [
     {
-     "t": "📖 Learn: CS50P — Harvard's Python course (main course)",
-     "u": "https://cs50.harvard.edu/python/"
+     "t": "✍️ Practice: Exercism Python track — MAIN SITE: learn a concept, solve it in the browser, tests check you (Learning Mode)",
+     "u": "https://exercism.org/tracks/python"
     },
     {
      "t": "✍️ Practice: Learn Git Branching — Git as a visual game (do levels 1–4)",
@@ -524,8 +552,8 @@
      "u": "https://missing.csail.mit.edu/2020/version-control/"
     },
     {
-     "t": "✍️ Practice: Exercism Python track — small exercises + free human mentor feedback",
-     "u": "https://exercism.org/tracks/python"
+     "t": "📖 Learn: CS50P lectures (optional video if an Exercism concept is unclear)",
+     "u": "https://cs50.harvard.edu/python/"
     }
    ]
   },
