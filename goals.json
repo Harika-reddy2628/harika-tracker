@@ -115,9 +115,9 @@
    "id": "py",
    "track": "skill",
    "short": "Python",
-   "name": "Python fundamentals done (Exercism Python: 30 exercises + OOP)",
+   "name": "Python fundamentals done (freeCodeCamp Python: basics → classes, 19 workshops/labs)",
    "due": "2026-12-06",
-   "url": "https://exercism.org/tracks/python",
+   "url": "https://www.freecodecamp.org/learn/python-v9/",
    "verified": null,
    "why": "The base for everything else.",
    "items": [

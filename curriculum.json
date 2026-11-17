@@ -2,7 +2,7 @@
  "method": [
   {
    "step": "1 · Read, then type",
-   "text": "On Exercism, read the exercise's Introduction (the concept explanation) once. Then close it and type the code yourself in the browser editor. Typing (not copy-paste) is how syntax sticks. Press Run Tests — red tests tell you exactly what is wrong."
+   "text": "On freeCodeCamp, read the instructions panel for each step, then type the code in the editor yourself (no copy-paste). Press Check Your Code — a red message tells you exactly what is missing. Stuck on a step? Use the Get Help button, not a full solution."
   },
   {
    "step": "2 · Try alone first (20 min)",
@@ -22,7 +22,7 @@
   },
   {
    "step": "6 · Push to GitHub daily",
-   "text": "When the Exercism tests pass, save the same code as python/<exercise-slug>.py in harika-sprint (e.g. python/guidos-gorgeous-lasagna.py) and push. Your tracker ticks it off, and recruiters will see it."
+   "text": "freeCodeCamp does not sync to GitHub by itself. When a workshop or lab passes, copy your final code into harika-sprint/python/<name>.py (e.g. python/report-card-printer.py) and push. That is what ticks it off in your tracker, and recruiters will see it."
   }
  ],
  "mathMethod": "MAIN TRACK. Watch → code along → change one thing and see what breaks → explain it in 3 sentences. If you can't explain it, rewatch that part only.",
@@ -30,34 +30,34 @@
   {
    "week": 1,
    "pattern": "Python 1: basics, numbers, booleans, if/else",
-   "phase": "A · Python from zero (Exercism)",
+   "phase": "A · Python from zero (freeCodeCamp)",
    "dl": {
-    "focus": "Python from zero on Exercism",
-    "build": "All week-1 Exercism solutions in harika-sprint/python/ (one file per exercise, named by its slug)",
+    "focus": "Python from zero on freeCodeCamp",
+    "build": "All week-1 freeCodeCamp solutions saved in harika-sprint/python/ (one file per workshop/lab, e.g. report-card-printer.py)",
     "pays": "Every DL job starts with Python fluency — this week is the foundation."
    },
-   "goal": "Write small Python functions confidently: variables, numbers, booleans, if/else — every one checked by Exercism's tests.",
+   "goal": "Write small Python functions confidently: variables, numbers, booleans, if/else — every step checked instantly by freeCodeCamp.",
    "idea": "A program is a list of steps the computer follows exactly. Functions are named, reusable steps that RETURN a result. if/else lets the program choose.",
    "template": "def is_adult(age):\n    \"\"\"Return True if age is 18 or more.\"\"\"\n    return age >= 18\n\ndef fare(age):\n    if is_adult(age):\n        return 100\n    return 50",
    "mistakes": [
-    "print() instead of return — Exercism tests check what you RETURN",
+    "print() instead of return — labs check what your function RETURNS",
     "Mixing tabs and spaces (indentation errors)",
-    "Not reading the failing test's message — it tells you the expected value"
+    "Ignoring the red message after Check Your Code — it names exactly what is missing"
    ],
    "schedule": "Break (16–29 Nov): 16:00–17:30 main track · 18:00–18:30 DSA/Python practice · 21:00–21:30 GRIT/aptitude",
    "days": [
     {
      "date": "2026-11-16",
      "day": "Mon",
-     "math": "Setup: Exercism account → join the Python track (Learning Mode ON) · install Python + VS Code · GitHub account · apply for Coursera financial aid",
-     "dsa": "Python practice is your DSA this week (Exercism exercises above)",
+     "math": "Setup (30 min): make a free freeCodeCamp account (saves your progress) · GitHub account · apply for Coursera financial aid. Then fCC Python Basics: intro + variables lectures → Report Card Printer workshop (10 steps)",
+     "dsa": "Python practice is your DSA this week (freeCodeCamp workshops/labs above)",
      "deepml": "— (starts week 4)",
      "cs": "GRIT: read your skill reports; note CT L1 + CS Fund requirements"
     },
     {
      "date": "2026-11-17",
      "day": "Tue",
-     "math": "Exercism: Hello World + Guido's Gorgeous Lasagna (basics: variables, functions)",
+     "math": "fCC: Strings lecture → Employee Profile Generator workshop (18 steps)",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Quant: percentages basics (15 min practice)"
@@ -65,7 +65,7 @@
     {
      "date": "2026-11-18",
      "day": "Wed",
-     "math": "Exercism: Ghost Gobble Arcade Game (booleans) + Two Fer",
+     "math": "fCC: Employee Profile Validator workshop (22 steps) · redo yesterday's first 5 steps from memory",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Book GRIT CT L1 slot (after Python basics — late Nov)"
@@ -73,7 +73,7 @@
     {
      "date": "2026-11-19",
      "day": "Thu",
-     "math": "Exercism: Currency Exchange (numbers, int vs float)",
+     "math": "fCC: Numbers lecture → Bill Splitter workshop (8 steps) → Booleans & conditionals lecture",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Quant: ratios"
@@ -81,7 +81,7 @@
     {
      "date": "2026-11-20",
      "day": "Fri",
-     "math": "Exercism: Meltdown Mitigation (if/elif/else) + Leap",
+     "math": "fCC: Movie Ticket Booking Calculator workshop (21 steps) → lab Travel Weather Planner (write it yourself)",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "CS Fund: what is an OS, what is a database (intro videos)"
@@ -89,7 +89,7 @@
     {
      "date": "2026-11-21",
      "day": "Sat",
-     "math": "Weekend (3 h): Black Jack (comparisons) + Raindrops + Triangle",
+     "math": "Weekend (3 h): fCC: Functions & scope lecture → Kitchen Inventory Tracker workshop (17 steps) → lab Apply Discount Function",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Rest"
@@ -97,7 +97,7 @@
     {
      "date": "2026-11-22",
      "day": "Sun",
-     "math": "Redo Lasagna + Meltdown Mitigation from a blank file, no peeking · write 'what I learned this week'",
+     "math": "Redo Report Card Printer + Kitchen Inventory from a blank file, no peeking · save all solutions to python/ · write 'what I learned this week'",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Weekly review 22:00 (15 min)"
@@ -105,113 +105,97 @@
    ],
    "problems": [
     {
-     "src": "Exercism",
+     "src": "freeCodeCamp",
      "n": null,
-     "name": "Hello World",
+     "name": "Report Card Printer (workshop, 10 steps)",
      "diff": "Easy",
-     "slug": "hello-world",
-     "url": "https://exercism.org/tracks/python/exercises/hello-world"
+     "slug": "report-card-printer",
+     "url": "https://www.freecodecamp.org/learn/python-v9/workshop-report-card-printer/step-1"
     },
     {
-     "src": "Exercism",
+     "src": "freeCodeCamp",
      "n": null,
-     "name": "Guido's Gorgeous Lasagna",
+     "name": "Employee Profile Generator (workshop, 18 steps)",
      "diff": "Easy",
-     "slug": "guidos-gorgeous-lasagna",
-     "url": "https://exercism.org/tracks/python/exercises/guidos-gorgeous-lasagna"
+     "slug": "employee-profile-generator",
+     "url": "https://www.freecodecamp.org/learn/python-v9/workshop-employee-profile-generator/step-1"
     },
     {
-     "src": "Exercism",
+     "src": "freeCodeCamp",
      "n": null,
-     "name": "Ghost Gobble Arcade Game",
+     "name": "Employee Profile Validator (workshop, 22 steps)",
      "diff": "Easy",
-     "slug": "ghost-gobble-arcade-game",
-     "url": "https://exercism.org/tracks/python/exercises/ghost-gobble-arcade-game"
+     "slug": "employee-profile-validator",
+     "url": "https://www.freecodecamp.org/learn/python-v9/workshop-employee-profile-validator/step-1"
     },
     {
-     "src": "Exercism",
+     "src": "freeCodeCamp",
      "n": null,
-     "name": "Two Fer",
+     "name": "Bill Splitter (workshop, 8 steps)",
      "diff": "Easy",
-     "slug": "two-fer",
-     "url": "https://exercism.org/tracks/python/exercises/two-fer"
+     "slug": "bill-splitter",
+     "url": "https://www.freecodecamp.org/learn/python-v9/workshop-bill-splitter/step-1"
     },
     {
-     "src": "Exercism",
+     "src": "freeCodeCamp",
      "n": null,
-     "name": "Currency Exchange",
+     "name": "Movie Ticket Booking Calculator (workshop, 21 steps)",
      "diff": "Easy",
-     "slug": "currency-exchange",
-     "url": "https://exercism.org/tracks/python/exercises/currency-exchange"
+     "slug": "movie-ticket-booking-calculator",
+     "url": "https://www.freecodecamp.org/learn/python-v9/workshop-movie-ticket-booking-calculator/step-1"
     },
     {
-     "src": "Exercism",
+     "src": "freeCodeCamp",
      "n": null,
-     "name": "Meltdown Mitigation",
+     "name": "Travel Weather Planner (lab)",
      "diff": "Easy",
-     "slug": "meltdown-mitigation",
-     "url": "https://exercism.org/tracks/python/exercises/meltdown-mitigation"
+     "slug": "travel-weather-planner",
+     "url": "https://www.freecodecamp.org/learn/python-v9/lab-travel-weather-planner/build-a-travel-weather-planner"
     },
     {
-     "src": "Exercism",
+     "src": "freeCodeCamp",
      "n": null,
-     "name": "Leap",
+     "name": "Kitchen Inventory Tracker (workshop, 17 steps)",
      "diff": "Easy",
-     "slug": "leap",
-     "url": "https://exercism.org/tracks/python/exercises/leap"
+     "slug": "kitchen-inventory-tracker",
+     "url": "https://www.freecodecamp.org/learn/python-v9/workshop-kitchen-inventory-tracker/step-1"
     },
     {
-     "src": "Exercism",
+     "src": "freeCodeCamp",
      "n": null,
-     "name": "Black Jack",
+     "name": "Apply Discount Function (lab)",
      "diff": "Easy",
-     "slug": "black-jack",
-     "url": "https://exercism.org/tracks/python/exercises/black-jack"
-    },
-    {
-     "src": "Exercism",
-     "n": null,
-     "name": "Raindrops",
-     "diff": "Easy",
-     "slug": "raindrops",
-     "url": "https://exercism.org/tracks/python/exercises/raindrops"
-    },
-    {
-     "src": "Exercism",
-     "n": null,
-     "name": "Triangle",
-     "diff": "Easy",
-     "slug": "triangle",
-     "url": "https://exercism.org/tracks/python/exercises/triangle"
+     "slug": "discount-calculator",
+     "url": "https://www.freecodecamp.org/learn/python-v9/lab-discount-calculator/build-a-discount-calculator"
     }
    ],
    "mastery": "Write a program from a blank file that asks for 3 numbers and prints the largest and the average — in 15 minutes, no help.",
    "resources": [
     {
-     "t": "✍️ Practice: Exercism Python track — MAIN SITE: learn a concept, solve it in the browser, tests check you (Learning Mode)",
-     "u": "https://exercism.org/tracks/python"
-    },
-    {
-     "t": "📖 Learn: Exercism Python concepts page — read the concept before its exercise",
-     "u": "https://exercism.org/tracks/python/concepts"
+     "t": "✍️ Practice: freeCodeCamp Python — MAIN SITE: 100% free, step-by-step lessons, in-browser editor, instant Check Your Code feedback, free certificate",
+     "u": "https://www.freecodecamp.org/learn/python-v9/"
     },
     {
      "t": "👀 See it: Python Tutor — paste code, watch it run line by line (use when confused)",
      "u": "https://pythontutor.com/"
     },
     {
-     "t": "📖 Learn: CS50P lectures (optional video if an Exercism concept is unclear)",
+     "t": "✍️ Practice: futurecoder — optional gentle warm-up if a freeCodeCamp step feels too fast (free, no account)",
+     "u": "https://futurecoder.io/"
+    },
+    {
+     "t": "📖 Learn: CS50P lectures (optional video if a concept is unclear)",
      "u": "https://cs50.harvard.edu/python/"
     }
    ]
   },
   {
    "week": 2,
-   "pattern": "Python 2: strings, lists, loops, dicts, sets",
-   "phase": "A · Python from zero (Exercism)",
+   "pattern": "Python 2: loops, dicts, sets, regex",
+   "phase": "A · Python from zero (freeCodeCamp)",
    "dl": {
-    "focus": "Text, collections and loops on Exercism",
-    "build": "All week-2 Exercism solutions in harika-sprint/python/",
+    "focus": "Loops, strings, dictionaries on freeCodeCamp",
+    "build": "All week-2 freeCodeCamp solutions in harika-sprint/python/ + first certification project (User Configuration Manager)",
     "pays": "Data processing with lists/dicts is 50% of real ML code."
    },
    "goal": "Process text and data with strings, lists, loops, tuples, dictionaries and sets.",
@@ -227,15 +211,15 @@
     {
      "date": "2026-11-23",
      "day": "Mon",
-     "math": "Exercism: Little Sister's Vocabulary (strings) + Reverse String",
-     "dsa": "Python practice is your DSA this week (Exercism exercises above)",
+     "math": "fCC: Caesar Cipher workshop (26 steps)",
+     "dsa": "Python practice is your DSA this week (freeCodeCamp workshops/labs above)",
      "deepml": "— (starts week 4)",
      "cs": "CT L1 practice: Python logic questions"
     },
     {
      "date": "2026-11-24",
      "day": "Tue",
-     "math": "Exercism: Little Sister's Essay (string methods) + Pangram",
+     "math": "fCC: lab RPG Character → Python Basics review + quiz (retry until you pass)",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Quant: averages"
@@ -243,7 +227,7 @@
     {
      "date": "2026-11-25",
      "day": "Wed",
-     "math": "Exercism: Card Games (lists) + Chaitana's Colossal Coaster (list methods)",
+     "math": "fCC: Loops & sequences lecture → Pin Extractor workshop (19 steps)",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "CS Fund: DBMS basics (tables, keys, SQL SELECT)"
@@ -251,7 +235,7 @@
     {
      "date": "2026-11-26",
      "day": "Thu",
-     "math": "Exercism: Making the Grade (loops) + Isogram",
+     "math": "fCC: lab Number Pattern Generator → Loops & sequences review + quiz",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "CT L1 practice"
@@ -259,7 +243,7 @@
     {
      "date": "2026-11-27",
      "day": "Fri",
-     "math": "Exercism: Tisbury Treasure Hunt (tuples) + Inventory Management (dicts)",
+     "math": "fCC: Dictionaries & sets lecture + modules + regular expressions lectures",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Quant: profit & loss"
@@ -267,7 +251,7 @@
     {
      "date": "2026-11-28",
      "day": "Sat",
-     "math": "Weekend (3 h): Mecha Munch Management (dict methods) + Cater Waiter (sets) + Word Count",
+     "math": "Weekend (3 h): fCC: Medical Data Validator workshop (44 steps)",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Rest"
@@ -275,7 +259,7 @@
     {
      "date": "2026-11-29",
      "day": "Sun",
-     "math": "Redo the 2 hardest of the week from a blank file · Anagram if time",
+     "math": "fCC certification project: User Configuration Manager (lab) · redo the hardest of the week from blank",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Weekly review"
@@ -283,141 +267,81 @@
    ],
    "problems": [
     {
-     "src": "Exercism",
+     "src": "freeCodeCamp",
      "n": null,
-     "name": "Little Sister's Vocabulary",
+     "name": "Caesar Cipher (workshop, 26 steps)",
      "diff": "Easy",
-     "slug": "little-sisters-vocab",
-     "url": "https://exercism.org/tracks/python/exercises/little-sisters-vocab"
+     "slug": "caesar-cipher",
+     "url": "https://www.freecodecamp.org/learn/python-v9/workshop-caesar-cipher/step-1"
     },
     {
-     "src": "Exercism",
+     "src": "freeCodeCamp",
      "n": null,
-     "name": "Reverse String",
+     "name": "RPG Character (lab)",
      "diff": "Easy",
-     "slug": "reverse-string",
-     "url": "https://exercism.org/tracks/python/exercises/reverse-string"
+     "slug": "rpg-character",
+     "url": "https://www.freecodecamp.org/learn/python-v9/lab-rpg-character/build-an-rpg-character"
     },
     {
-     "src": "Exercism",
+     "src": "freeCodeCamp",
      "n": null,
-     "name": "Little Sister's Essay",
+     "name": "Pin Extractor (workshop, 19 steps)",
      "diff": "Easy",
-     "slug": "little-sisters-essay",
-     "url": "https://exercism.org/tracks/python/exercises/little-sisters-essay"
+     "slug": "pin-extractor",
+     "url": "https://www.freecodecamp.org/learn/python-v9/workshop-pin-extractor/step-1"
     },
     {
-     "src": "Exercism",
+     "src": "freeCodeCamp",
      "n": null,
-     "name": "Pangram",
+     "name": "Number Pattern Generator (lab)",
      "diff": "Easy",
-     "slug": "pangram",
-     "url": "https://exercism.org/tracks/python/exercises/pangram"
+     "slug": "number-pattern-generator",
+     "url": "https://www.freecodecamp.org/learn/python-v9/lab-number-pattern-generator/build-a-number-pattern-generator"
     },
     {
-     "src": "Exercism",
+     "src": "freeCodeCamp",
      "n": null,
-     "name": "Card Games",
-     "diff": "Easy",
-     "slug": "card-games",
-     "url": "https://exercism.org/tracks/python/exercises/card-games"
-    },
-    {
-     "src": "Exercism",
-     "n": null,
-     "name": "Chaitana's Colossal Coaster",
-     "diff": "Easy",
-     "slug": "chaitanas-colossal-coaster",
-     "url": "https://exercism.org/tracks/python/exercises/chaitanas-colossal-coaster"
-    },
-    {
-     "src": "Exercism",
-     "n": null,
-     "name": "Making the Grade",
-     "diff": "Easy",
-     "slug": "making-the-grade",
-     "url": "https://exercism.org/tracks/python/exercises/making-the-grade"
-    },
-    {
-     "src": "Exercism",
-     "n": null,
-     "name": "Isogram",
-     "diff": "Easy",
-     "slug": "isogram",
-     "url": "https://exercism.org/tracks/python/exercises/isogram"
-    },
-    {
-     "src": "Exercism",
-     "n": null,
-     "name": "Tisbury Treasure Hunt",
-     "diff": "Easy",
-     "slug": "tisbury-treasure-hunt",
-     "url": "https://exercism.org/tracks/python/exercises/tisbury-treasure-hunt"
-    },
-    {
-     "src": "Exercism",
-     "n": null,
-     "name": "Inventory Management",
-     "diff": "Easy",
-     "slug": "inventory-management",
-     "url": "https://exercism.org/tracks/python/exercises/inventory-management"
-    },
-    {
-     "src": "Exercism",
-     "n": null,
-     "name": "Mecha Munch Management",
-     "diff": "Easy",
-     "slug": "mecha-munch-management",
-     "url": "https://exercism.org/tracks/python/exercises/mecha-munch-management"
-    },
-    {
-     "src": "Exercism",
-     "n": null,
-     "name": "Cater Waiter",
-     "diff": "Easy",
-     "slug": "cater-waiter",
-     "url": "https://exercism.org/tracks/python/exercises/cater-waiter"
-    },
-    {
-     "src": "Exercism",
-     "n": null,
-     "name": "Word Count",
+     "name": "Medical Data Validator (workshop, 44 steps)",
      "diff": "Medium",
-     "slug": "word-count",
-     "url": "https://exercism.org/tracks/python/exercises/word-count"
+     "slug": "medical-data-validator",
+     "url": "https://www.freecodecamp.org/learn/python-v9/workshop-medical-data-validator/step-1"
     },
     {
-     "src": "Exercism",
+     "src": "freeCodeCamp",
      "n": null,
-     "name": "Anagram",
-     "diff": "Easy",
-     "slug": "anagram",
-     "url": "https://exercism.org/tracks/python/exercises/anagram"
+     "name": "User Configuration Manager (lab)",
+     "diff": "Medium",
+     "slug": "user-configuration-manager",
+     "url": "https://www.freecodecamp.org/learn/python-v9/lab-user-configuration-manager/build-a-user-configuration-manager"
     }
    ],
    "mastery": "From blank: read words until the user types 'done', then print each word with its count, sorted by count. ≤20 min.",
    "resources": [
     {
-     "t": "✍️ Practice: Exercism Python track — MAIN SITE: learn a concept, solve it in the browser, tests check you (Learning Mode)",
-     "u": "https://exercism.org/tracks/python"
+     "t": "✍️ Practice: freeCodeCamp Python — MAIN SITE: 100% free, step-by-step lessons, in-browser editor, instant Check Your Code feedback, free certificate",
+     "u": "https://www.freecodecamp.org/learn/python-v9/"
     },
     {
      "t": "👀 See it: Python Tutor — paste code, watch it run line by line (use when confused)",
      "u": "https://pythontutor.com/"
     },
     {
-     "t": "📖 Learn: CS50P lectures (optional video if an Exercism concept is unclear)",
+     "t": "✍️ Practice: Exercism Python track — optional extra free drills + free mentor review",
+     "u": "https://exercism.org/tracks/python"
+    },
+    {
+     "t": "📖 Learn: CS50P lectures (optional video if a concept is unclear)",
      "u": "https://cs50.harvard.edu/python/"
     }
    ]
   },
   {
    "week": 3,
-   "pattern": "Python 3: classes, unpacking, generators, files, Git",
-   "phase": "A · Python from zero (Exercism)",
+   "pattern": "Python 3: errors, classes, Git",
+   "phase": "A · Python from zero (freeCodeCamp)",
    "dl": {
     "focus": "Classes + Git/GitHub",
-    "build": "Mini project: CLI expense tracker (class + CSV + README) on GitHub",
+    "build": "Budget App (fCC certification project: class-based expense tracker) on GitHub with a README",
     "pays": "A clean GitHub with READMEs is what recruiters open first."
    },
    "goal": "Write simple classes, use unpacking and generators, read/write files, and work with Git like a developer.",
@@ -433,15 +357,15 @@
     {
      "date": "2026-11-30",
      "day": "Mon",
-     "math": "Exercism: Locomotive Engineer (unpacking, *args/**kwargs)",
-     "dsa": "Python practice is your DSA this week (Exercism exercises above)",
+     "math": "fCC: Error handling lecture → lab ISBN Validator",
+     "dsa": "Python practice is your DSA this week (freeCodeCamp workshops/labs above)",
      "deepml": "— (starts week 4)",
      "cs": "GRIT CT L1 attempt"
     },
     {
      "date": "2026-12-01",
      "day": "Tue",
-     "math": "Exercism: Ellen's Alien Game (classes)",
+     "math": "fCC: Classes & objects lecture → Musical Instrument Inventory workshop (13 steps)",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "CS Fund: OS basics (process, thread)"
@@ -449,7 +373,7 @@
     {
      "date": "2026-12-02",
      "day": "Wed",
-     "math": "Exercism: Space Age (class practice) + Grains",
+     "math": "fCC: lab Planet Class",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Quant mixed set"
@@ -457,7 +381,7 @@
     {
      "date": "2026-12-03",
      "day": "Thu",
-     "math": "Exercism: Plane Tickets (generators)",
+     "math": "fCC: Email Simulator workshop (51 steps) — first half",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "CS Fund: networks basics (what happens when you open a website)"
@@ -465,7 +389,7 @@
     {
      "date": "2026-12-04",
      "day": "Fri",
-     "math": "Files: CS50P Lecture 6 (file I/O) first 40 min — read/write a CSV with `with open` + csv module",
+     "math": "fCC: Email Simulator workshop — second half",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "GRIT CS Fund L1 / QR L1 attempt (target 6 Dec)"
@@ -473,7 +397,7 @@
     {
      "date": "2026-12-05",
      "day": "Sat",
-     "math": "Weekend (3 h): Learn Git Branching levels 1–4 + Missing Semester Git lecture + set up LeetHub + deep-ml GitHub sync",
+     "math": "Weekend (3 h): Git: Learn Git Branching levels 1–4 + Missing Semester Git lecture · set up LeetHub + deep-ml GitHub sync · start the Budget App",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Rest"
@@ -481,7 +405,7 @@
     {
      "date": "2026-12-06",
      "day": "Sun",
-     "math": "Mini project: a CLI expense tracker with a class + CSV file, pushed with a README · Scrabble Score if time",
+     "math": "fCC certification project: Budget App (an expense tracker with a class) — finish, push with a README",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Weekly review"
@@ -489,59 +413,51 @@
    ],
    "problems": [
     {
-     "src": "Exercism",
+     "src": "freeCodeCamp",
      "n": null,
-     "name": "Locomotive Engineer",
+     "name": "ISBN Validator (lab)",
      "diff": "Easy",
-     "slug": "locomotive-engineer",
-     "url": "https://exercism.org/tracks/python/exercises/locomotive-engineer"
+     "slug": "isbn-validator",
+     "url": "https://www.freecodecamp.org/learn/python-v9/lab-isbn-validator/debug-an-isbn-validator"
     },
     {
-     "src": "Exercism",
+     "src": "freeCodeCamp",
      "n": null,
-     "name": "Ellen's Alien Game",
+     "name": "Musical Instrument Inventory (workshop, 13 steps)",
      "diff": "Easy",
-     "slug": "ellens-alien-game",
-     "url": "https://exercism.org/tracks/python/exercises/ellens-alien-game"
+     "slug": "musical-instrument-inventory",
+     "url": "https://www.freecodecamp.org/learn/python-v9/workshop-musical-instrument-inventory/step-1"
     },
     {
-     "src": "Exercism",
+     "src": "freeCodeCamp",
      "n": null,
-     "name": "Space Age",
+     "name": "Planet Class (lab)",
      "diff": "Easy",
-     "slug": "space-age",
-     "url": "https://exercism.org/tracks/python/exercises/space-age"
+     "slug": "planet-class",
+     "url": "https://www.freecodecamp.org/learn/python-v9/lab-planet-class/build-a-planet-class"
     },
     {
-     "src": "Exercism",
+     "src": "freeCodeCamp",
      "n": null,
-     "name": "Grains",
-     "diff": "Easy",
-     "slug": "grains",
-     "url": "https://exercism.org/tracks/python/exercises/grains"
+     "name": "Email Simulator (workshop, 51 steps)",
+     "diff": "Medium",
+     "slug": "email-simulator",
+     "url": "https://www.freecodecamp.org/learn/python-v9/workshop-email-simulator/step-1"
     },
     {
-     "src": "Exercism",
+     "src": "freeCodeCamp",
      "n": null,
-     "name": "Plane Tickets",
-     "diff": "Easy",
-     "slug": "plane-tickets",
-     "url": "https://exercism.org/tracks/python/exercises/plane-tickets"
-    },
-    {
-     "src": "Exercism",
-     "n": null,
-     "name": "Scrabble Score",
-     "diff": "Easy",
-     "slug": "scrabble-score",
-     "url": "https://exercism.org/tracks/python/exercises/scrabble-score"
+     "name": "Budget App (lab)",
+     "diff": "Medium",
+     "slug": "budget-app",
+     "url": "https://www.freecodecamp.org/learn/python-v9/lab-budget-app/build-a-budget-app"
     }
    ],
    "mastery": "Write a class BankAccount with deposit/withdraw/balance, raising an error on overdraft, plus 3 tests. ≤25 min.",
    "resources": [
     {
-     "t": "✍️ Practice: Exercism Python track — MAIN SITE: learn a concept, solve it in the browser, tests check you (Learning Mode)",
-     "u": "https://exercism.org/tracks/python"
+     "t": "✍️ Practice: freeCodeCamp Python — MAIN SITE: 100% free, step-by-step lessons, in-browser editor, instant Check Your Code feedback, free certificate",
+     "u": "https://www.freecodecamp.org/learn/python-v9/"
     },
     {
      "t": "✍️ Practice: Learn Git Branching — Git as a visual game (do levels 1–4)",
@@ -552,8 +468,8 @@
      "u": "https://missing.csail.mit.edu/2020/version-control/"
     },
     {
-     "t": "📖 Learn: CS50P lectures (optional video if an Exercism concept is unclear)",
-     "u": "https://cs50.harvard.edu/python/"
+     "t": "✍️ Practice: Exercism Python track — optional extra free drills + free mentor review",
+     "u": "https://exercism.org/tracks/python"
     }
    ]
   },
