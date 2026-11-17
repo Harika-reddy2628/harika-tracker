@@ -188,8 +188,20 @@
    "mastery": "Write a program from a blank file that asks for 3 numbers and prints the largest and the average — in 15 minutes, no help.",
    "resources": [
     {
-     "t": "CS50's Introduction to Programming with Python (free)",
+     "t": "📖 Learn: CS50P — Harvard's Python course (main course)",
      "u": "https://cs50.harvard.edu/python/"
+    },
+    {
+     "t": "✍️ Practice: futurecoder — interactive beginner Python, gives hints (if a CS50P lecture felt fast)",
+     "u": "https://futurecoder.io/"
+    },
+    {
+     "t": "✍️ Practice: Kaggle Learn: Intro to Programming (gentlest start, certificate)",
+     "u": "https://www.kaggle.com/learn/intro-to-programming"
+    },
+    {
+     "t": "👀 See it: Python Tutor — paste code, watch it run line by line (use when confused)",
+     "u": "https://pythontutor.com/"
     }
    ]
   },
@@ -346,8 +358,20 @@
    "mastery": "From blank: read words until the user types 'done', then print each word with its count, sorted by count. ≤20 min.",
    "resources": [
     {
-     "t": "CS50's Introduction to Programming with Python (free)",
+     "t": "📖 Learn: CS50P — Harvard's Python course (main course)",
      "u": "https://cs50.harvard.edu/python/"
+    },
+    {
+     "t": "✍️ Practice: W3Schools Python exercises — 2-minute fill-in-the-blank drills",
+     "u": "https://www.w3schools.com/python/python_exercises.asp"
+    },
+    {
+     "t": "✍️ Practice: Practice Python — short beginner exercises with solutions",
+     "u": "https://www.practicepython.org/"
+    },
+    {
+     "t": "👀 See it: Python Tutor — paste code, watch it run line by line (use when confused)",
+     "u": "https://pythontutor.com/"
     }
    ]
   },
@@ -413,7 +437,7 @@
     {
      "date": "2026-12-05",
      "day": "Sat",
-     "math": "Weekend (3 h): Git basics (Missing Semester or freeCodeCamp Git video) + set up LeetHub + deep-ml GitHub sync",
+     "math": "Weekend (3 h): Learn Git Branching levels 1–4 + Missing Semester Git lecture + set up LeetHub + deep-ml GitHub sync",
      "dsa": "—",
      "deepml": "— (starts week 4)",
      "cs": "Rest"
@@ -488,8 +512,20 @@
    "mastery": "Write a class BankAccount with deposit/withdraw/balance, raising an error on overdraft, plus 3 tests. ≤25 min.",
    "resources": [
     {
-     "t": "CS50's Introduction to Programming with Python (free)",
+     "t": "📖 Learn: CS50P — Harvard's Python course (main course)",
      "u": "https://cs50.harvard.edu/python/"
+    },
+    {
+     "t": "✍️ Practice: Learn Git Branching — Git as a visual game (do levels 1–4)",
+     "u": "https://learngitbranching.js.org/"
+    },
+    {
+     "t": "📖 Learn: Missing Semester: Git lecture",
+     "u": "https://missing.csail.mit.edu/2020/version-control/"
+    },
+    {
+     "t": "✍️ Practice: Exercism Python track — small exercises + free human mentor feedback",
+     "u": "https://exercism.org/tracks/python"
     }
    ]
   },
@@ -555,7 +591,7 @@
     {
      "date": "2026-12-12",
      "day": "Sat",
-     "math": "Weekend (3 h): NumPy exercises — 20 array problems (rewrite 5 of your loops as NumPy)",
+     "math": "Weekend (3 h): numpy-100 — first 20 one-star exercises (rewrite 5 of your loops as NumPy)",
      "dsa": "30 min: Kids With the Greatest Number of Candies · redo yesterday's in 10 min",
      "deepml": "—",
      "cs": "Rest"
@@ -616,16 +652,36 @@
    "mastery": "An unseen LeetCode Easy on arrays in ≤20 min + say its Big-O.",
    "resources": [
     {
-     "t": "Kaggle Learn (free courses + certificates)",
-     "u": "https://www.kaggle.com/learn"
+     "t": "📖 Learn: Kaggle Learn: Python (certificate)",
+     "u": "https://www.kaggle.com/learn/python"
     },
     {
-     "t": "3Blue1Brown — Essence of Linear Algebra",
+     "t": "👀 See it: 3Blue1Brown — Essence of Linear Algebra",
      "u": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab"
     },
     {
-     "t": "LeetCode",
+     "t": "📖 Learn: Khan Academy linear algebra — practice questions for vectors/matrices",
+     "u": "https://www.khanacademy.org/math/linear-algebra"
+    },
+    {
+     "t": "✍️ Practice: numpy-100 — 100 NumPy exercises, do the 1-star ones",
+     "u": "https://github.com/rougier/numpy-100"
+    },
+    {
+     "t": "✍️ Practice: LeetCode problem set",
      "u": "https://leetcode.com/problemset/"
+    },
+    {
+     "t": "📖 Learn: NeetCode roadmap — free video per problem, watch AFTER trying",
+     "u": "https://neetcode.io/roadmap"
+    },
+    {
+     "t": "👀 See it: VisuAlgo — animated arrays, lists, trees, sorting",
+     "u": "https://visualgo.net/en"
+    },
+    {
+     "t": "✍️ Practice: deep-ml — NumPy/ML coding problems (Mon/Wed/Fri)",
+     "u": "https://www.deep-ml.com/"
     }
    ]
   },
@@ -752,12 +808,32 @@
    "mastery": "Two Sum from blank with a dict in ≤15 min, and explain why it's O(n).",
    "resources": [
     {
-     "t": "Kaggle Learn (free courses + certificates)",
-     "u": "https://www.kaggle.com/learn"
+     "t": "📖 Learn: Kaggle Learn: Pandas (certificate)",
+     "u": "https://www.kaggle.com/learn/pandas"
     },
     {
-     "t": "LeetCode",
+     "t": "📖 Learn: Kaggle Learn: Data Visualization (certificate)",
+     "u": "https://www.kaggle.com/learn/data-visualization"
+    },
+    {
+     "t": "✍️ Practice: pandas_exercises — real datasets, step-by-step notebooks",
+     "u": "https://github.com/guipsamora/pandas_exercises"
+    },
+    {
+     "t": "📖 Learn: Kaggle Datasets — pick one you care about for Project A",
+     "u": "https://www.kaggle.com/datasets"
+    },
+    {
+     "t": "✍️ Practice: LeetCode problem set",
      "u": "https://leetcode.com/problemset/"
+    },
+    {
+     "t": "📖 Learn: NeetCode roadmap — free video per problem, watch AFTER trying",
+     "u": "https://neetcode.io/roadmap"
+    },
+    {
+     "t": "✍️ Practice: deep-ml — NumPy/ML coding problems (Mon/Wed/Fri)",
+     "u": "https://www.deep-ml.com/"
     }
    ]
   },
@@ -783,7 +859,7 @@
     {
      "date": "2026-12-21",
      "day": "Mon",
-     "math": "StatQuest: Linear Regression + Gradient Descent (YouTube)",
+     "math": "StatQuest: Linear Regression + Gradient Descent (YouTube) + MLU-Explain Linear Regression",
      "dsa": "30 min: Valid Palindrome · Big-O + pattern video first",
      "deepml": "1 deep-ml Easy (linear algebra / NumPy) — 30 min",
      "cs": "GRIT next level prep (Gen AI L2 / CT L2)"
@@ -807,7 +883,7 @@
     {
      "date": "2026-12-24",
      "day": "Thu",
-     "math": "Khan Academy: derivatives intuition (what a slope is)",
+     "math": "Google ML Crash Course: Linear regression module (interactive) + Khan Academy derivatives intuition",
      "dsa": "30 min: Squares of a Sorted Array · redo yesterday's in 10 min",
      "deepml": "—",
      "cs": "Aptitude 20 min"
@@ -877,16 +953,36 @@
    "mastery": "Valid Palindrome from blank with two pointers in ≤15 min.",
    "resources": [
     {
-     "t": "Kaggle Learn (free courses + certificates)",
-     "u": "https://www.kaggle.com/learn"
+     "t": "📖 Learn: Google ML Crash Course — short lessons + interactive exercises (Linear regression module)",
+     "u": "https://developers.google.com/machine-learning/crash-course"
     },
     {
-     "t": "StatQuest (ML intuition)",
+     "t": "👀 See it: MLU-Explain — interactive visual essays (Linear Regression, Bias-Variance)",
+     "u": "https://mlu-explain.github.io/"
+    },
+    {
+     "t": "📖 Learn: Kaggle Learn: Intro to Machine Learning (certificate)",
+     "u": "https://www.kaggle.com/learn/intro-to-machine-learning"
+    },
+    {
+     "t": "📖 Learn: StatQuest (YouTube) — clearest ML explanations",
      "u": "https://www.youtube.com/@statquest"
     },
     {
-     "t": "LeetCode",
+     "t": "👀 See it: Seeing Theory — probability & stats, interactive",
+     "u": "https://seeing-theory.brown.edu/"
+    },
+    {
+     "t": "✍️ Practice: LeetCode problem set",
      "u": "https://leetcode.com/problemset/"
+    },
+    {
+     "t": "📖 Learn: NeetCode roadmap — free video per problem, watch AFTER trying",
+     "u": "https://neetcode.io/roadmap"
+    },
+    {
+     "t": "✍️ Practice: deep-ml — NumPy/ML coding problems (Mon/Wed/Fri)",
+     "u": "https://www.deep-ml.com/"
     }
    ]
   },
@@ -960,7 +1056,7 @@
     {
      "date": "2027-01-03",
      "day": "Sun",
-     "math": "Write: precision vs recall with a real example",
+     "math": "Write: precision vs recall with a real example (MLU-Explain Precision & Recall helps)",
      "dsa": "Re-solve the week's hardest from blank (20 min)",
      "deepml": "—",
      "cs": "Weekly review"
@@ -999,16 +1095,32 @@
    "mastery": "Best Time to Buy and Sell Stock from blank in ≤15 min.",
    "resources": [
     {
-     "t": "Kaggle Learn (free courses + certificates)",
-     "u": "https://www.kaggle.com/learn"
+     "t": "📖 Learn: Kaggle Learn: Intermediate ML (certificate)",
+     "u": "https://www.kaggle.com/learn/intermediate-machine-learning"
     },
     {
-     "t": "StatQuest (ML intuition)",
-     "u": "https://www.youtube.com/@statquest"
+     "t": "👀 See it: MLU-Explain — Logistic Regression, Precision & Recall, Decision Trees",
+     "u": "https://mlu-explain.github.io/"
     },
     {
-     "t": "LeetCode",
+     "t": "✍️ Practice: Kaggle Titanic competition — first submission",
+     "u": "https://www.kaggle.com/competitions/titanic"
+    },
+    {
+     "t": "📖 Learn: Google ML Crash Course — Classification module",
+     "u": "https://developers.google.com/machine-learning/crash-course"
+    },
+    {
+     "t": "✍️ Practice: LeetCode problem set",
      "u": "https://leetcode.com/problemset/"
+    },
+    {
+     "t": "📖 Learn: NeetCode roadmap — free video per problem, watch AFTER trying",
+     "u": "https://neetcode.io/roadmap"
+    },
+    {
+     "t": "✍️ Practice: deep-ml — NumPy/ML coding problems (Mon/Wed/Fri)",
+     "u": "https://www.deep-ml.com/"
     }
    ]
   },
@@ -1121,16 +1233,36 @@
    "mastery": "Valid Parentheses from blank in ≤15 min.",
    "resources": [
     {
-     "t": "3Blue1Brown — Neural Networks",
+     "t": "👀 See it: 3Blue1Brown — Neural Networks",
      "u": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi"
     },
     {
-     "t": "Deep Learning Specialization (audit / financial aid)",
+     "t": "👀 See it: TensorFlow Playground — train a NN in the browser",
+     "u": "https://playground.tensorflow.org/"
+    },
+    {
+     "t": "📖 Learn: Neural Networks and Deep Learning (Nielsen) ch.1–2 — free online book",
+     "u": "http://neuralnetworksanddeeplearning.com/"
+    },
+    {
+     "t": "📖 Learn: Kaggle Learn: Intro to Deep Learning (certificate)",
+     "u": "https://www.kaggle.com/learn/intro-to-deep-learning"
+    },
+    {
+     "t": "📖 Learn: Deep Learning Specialization (audit / financial aid)",
      "u": "https://www.coursera.org/specializations/deep-learning"
     },
     {
-     "t": "LeetCode",
+     "t": "✍️ Practice: LeetCode problem set",
      "u": "https://leetcode.com/problemset/"
+    },
+    {
+     "t": "👀 See it: VisuAlgo — animated arrays, lists, trees, sorting",
+     "u": "https://visualgo.net/en"
+    },
+    {
+     "t": "✍️ Practice: deep-ml — NumPy/ML coding problems (Mon/Wed/Fri)",
+     "u": "https://www.deep-ml.com/"
     }
    ]
   },
@@ -1156,7 +1288,7 @@
     {
      "date": "2027-01-11",
      "day": "Mon",
-     "math": "PyTorch tutorial: Tensors + Datasets",
+     "math": "learnpytorch.io ch.00: tensors (code along in Kaggle/Colab)",
      "dsa": "30 min: Binary Search · Big-O + pattern video first",
      "deepml": "1 deep-ml Easy (linear algebra / NumPy) — 30 min",
      "cs": "GRIT next level prep (Gen AI L2 / CT L2)"
@@ -1164,7 +1296,7 @@
     {
      "date": "2027-01-12",
      "day": "Tue",
-     "math": "PyTorch tutorial: Build the model + Autograd",
+     "math": "learnpytorch.io ch.01: workflow (data → model → train → evaluate)",
      "dsa": "30 min: Search Insert Position · redo yesterday's in 10 min",
      "deepml": "—",
      "cs": "Aptitude 20 min"
@@ -1172,7 +1304,7 @@
     {
      "date": "2027-01-13",
      "day": "Wed",
-     "math": "PyTorch tutorial: Optimization loop",
+     "math": "learnpytorch.io ch.02: classification + the training loop",
      "dsa": "30 min: First Bad Version · redo yesterday's in 10 min",
      "deepml": "1 deep-ml Easy (linear algebra / NumPy) — 30 min",
      "cs": "GRIT practice"
@@ -1243,16 +1375,32 @@
    "mastery": "Binary Search from blank, bug-free, in ≤10 min.",
    "resources": [
     {
-     "t": "PyTorch tutorials",
+     "t": "📖 Learn: learnpytorch.io — beginner PyTorch book, ch.00–02 (main resource this week)",
+     "u": "https://www.learnpytorch.io/"
+    },
+    {
+     "t": "📖 Learn: Official PyTorch basics tutorial (reference)",
      "u": "https://pytorch.org/tutorials/beginner/basics/intro.html"
     },
     {
-     "t": "fast.ai Practical Deep Learning (free)",
+     "t": "📖 Learn: fast.ai Practical Deep Learning (free)",
      "u": "https://course.fast.ai/"
     },
     {
-     "t": "LeetCode",
+     "t": "✍️ Practice: Kaggle Notebooks — free GPU for training",
+     "u": "https://www.kaggle.com/code"
+    },
+    {
+     "t": "✍️ Practice: LeetCode problem set",
      "u": "https://leetcode.com/problemset/"
+    },
+    {
+     "t": "📖 Learn: NeetCode roadmap — free video per problem, watch AFTER trying",
+     "u": "https://neetcode.io/roadmap"
+    },
+    {
+     "t": "✍️ Practice: deep-ml — NumPy/ML coding problems (Mon/Wed/Fri)",
+     "u": "https://www.deep-ml.com/"
     }
    ]
   },
@@ -1302,7 +1450,7 @@
     {
      "date": "2027-01-21",
      "day": "Thu",
-     "math": "Fine-tune ResNet18 on it",
+     "math": "Fine-tune ResNet18 on it (follow learnpytorch.io ch.06 with your data)",
      "dsa": "30 min: Linked List Cycle · redo yesterday's in 10 min",
      "deepml": "—",
      "cs": "Aptitude 20 min"
@@ -1365,16 +1513,32 @@
    "mastery": "Reverse Linked List from blank in ≤15 min (draw it first).",
    "resources": [
     {
-     "t": "PyTorch tutorials",
-     "u": "https://pytorch.org/tutorials/beginner/basics/intro.html"
+     "t": "📖 Learn: learnpytorch.io ch.03 (computer vision) + ch.06 (transfer learning)",
+     "u": "https://www.learnpytorch.io/06_pytorch_transfer_learning/"
     },
     {
-     "t": "fast.ai Practical Deep Learning (free)",
+     "t": "👀 See it: CNN Explainer — see what each conv layer does",
+     "u": "https://poloclub.github.io/cnn-explainer/"
+    },
+    {
+     "t": "📖 Learn: Kaggle Learn: Computer Vision (certificate)",
+     "u": "https://www.kaggle.com/learn/computer-vision"
+    },
+    {
+     "t": "📖 Learn: fast.ai lesson 2",
      "u": "https://course.fast.ai/"
     },
     {
-     "t": "LeetCode",
+     "t": "✍️ Practice: LeetCode problem set",
      "u": "https://leetcode.com/problemset/"
+    },
+    {
+     "t": "👀 See it: VisuAlgo — animated arrays, lists, trees, sorting",
+     "u": "https://visualgo.net/en"
+    },
+    {
+     "t": "✍️ Practice: deep-ml — NumPy/ML coding problems (Mon/Wed/Fri)",
+     "u": "https://www.deep-ml.com/"
     }
    ]
   },
@@ -1400,7 +1564,7 @@
     {
      "date": "2027-01-25",
      "day": "Mon",
-     "math": "Gradio quickstart",
+     "math": "Gradio quickstart + learnpytorch.io ch.09 intro",
      "dsa": "30 min: Maximum Depth of Binary Tree · Big-O + pattern video first",
      "deepml": "1 deep-ml Easy (linear algebra / NumPy) — 30 min",
      "cs": "GRIT next level prep (Gen AI L2 / CT L2)"
@@ -1416,7 +1580,7 @@
     {
      "date": "2027-01-27",
      "day": "Wed",
-     "math": "Deploy on Hugging Face Spaces",
+     "math": "Deploy on Hugging Face Spaces (learnpytorch.io ch.09 steps)",
      "dsa": "30 min: Same Tree · redo yesterday's in 10 min",
      "deepml": "1 deep-ml Easy (linear algebra / NumPy) — 30 min",
      "cs": "GRIT practice"
@@ -1487,16 +1651,28 @@
    "mastery": "Maximum Depth of Binary Tree from blank in ≤10 min (recursion).",
    "resources": [
     {
-     "t": "Gradio",
+     "t": "📖 Learn: learnpytorch.io ch.09 — deploy a model to Hugging Face Spaces (step by step)",
+     "u": "https://www.learnpytorch.io/09_pytorch_model_deployment/"
+    },
+    {
+     "t": "📖 Learn: Gradio quickstart",
      "u": "https://www.gradio.app/guides/quickstart"
     },
     {
-     "t": "Hugging Face Spaces",
+     "t": "✍️ Practice: Hugging Face Spaces — browse demos, then host yours",
      "u": "https://huggingface.co/spaces"
     },
     {
-     "t": "LeetCode",
+     "t": "✍️ Practice: LeetCode problem set",
      "u": "https://leetcode.com/problemset/"
+    },
+    {
+     "t": "👀 See it: VisuAlgo — animated arrays, lists, trees, sorting",
+     "u": "https://visualgo.net/en"
+    },
+    {
+     "t": "✍️ Practice: deep-ml — NumPy/ML coding problems (Mon/Wed/Fri)",
+     "u": "https://www.deep-ml.com/"
     }
    ]
   },
@@ -1522,7 +1698,7 @@
     {
      "date": "2027-02-01",
      "day": "Mon",
-     "math": "Hugging Face course ch.1: transformers, what they can do",
+     "math": "Hugging Face LLM course ch.1 + play with Transformer Explainer",
      "dsa": "30 min: Longest Common Prefix · Big-O + pattern video first",
      "deepml": "1 deep-ml Easy (linear algebra / NumPy) — 30 min",
      "cs": "GRIT next level prep (Gen AI L2 / CT L2)"
@@ -1609,12 +1785,28 @@
    "mastery": "Any 2 unseen LeetCode Easies in 30 min total.",
    "resources": [
     {
-     "t": "Hugging Face course (free)",
-     "u": "https://huggingface.co/learn"
+     "t": "📖 Learn: Hugging Face LLM course ch.1–3 (free)",
+     "u": "https://huggingface.co/learn/llm-course/chapter1/1"
     },
     {
-     "t": "LeetCode",
+     "t": "👀 See it: Transformer Explainer — interactive GPT-2 in the browser",
+     "u": "https://poloclub.github.io/transformer-explainer/"
+    },
+    {
+     "t": "👀 See it: The Illustrated Transformer (Jay Alammar)",
+     "u": "https://jalammar.github.io/illustrated-transformer/"
+    },
+    {
+     "t": "✍️ Practice: Kaggle Notebooks — free GPU for fine-tuning",
+     "u": "https://www.kaggle.com/code"
+    },
+    {
+     "t": "✍️ Practice: LeetCode problem set",
      "u": "https://leetcode.com/problemset/"
+    },
+    {
+     "t": "✍️ Practice: deep-ml — NumPy/ML coding problems (Mon/Wed/Fri)",
+     "u": "https://www.deep-ml.com/"
     }
    ]
   },
@@ -1698,8 +1890,20 @@
    "mastery": "Explain any of your projects in 3 minutes, and answer: overfitting, train/val/test, what a CNN does, what fine-tuning is.",
    "resources": [
     {
-     "t": "LeetCode",
+     "t": "📖 Learn: ML cheatsheet — revise concepts before interviews",
+     "u": "https://ml-cheatsheet.readthedocs.io/"
+    },
+    {
+     "t": "📖 Learn: Google ML Crash Course — skim as interview revision",
+     "u": "https://developers.google.com/machine-learning/crash-course"
+    },
+    {
+     "t": "✍️ Practice: LeetCode problem set",
      "u": "https://leetcode.com/problemset/"
+    },
+    {
+     "t": "📖 Learn: NeetCode roadmap — free video per problem, watch AFTER trying",
+     "u": "https://neetcode.io/roadmap"
     }
    ]
   }
