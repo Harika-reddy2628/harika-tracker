@@ -11,51 +11,56 @@
    "id": "w01",
    "week": 1,
    "dates": "16–22 Nov",
-   "pattern": "Python 1: variables, functions, conditionals",
+   "pattern": "Python 1: basics, numbers, booleans, if/else",
    "mastered": false
   },
   {
    "id": "w02",
    "week": 2,
    "dates": "23–29 Nov",
-   "pattern": "Python 2: loops, lists, dicts, errors",
-   "mastered": false
+   "pattern": "Python 2 + CT drills: loops, strings, dicts, patterns",
+   "mastered": false,
+   "grit": "Gen AI L1 + CT&C L1"
   },
   {
    "id": "w03",
    "week": 3,
    "dates": "30 Nov–6 Dec",
-   "pattern": "Python 3: libraries, files, OOP, Git",
+   "pattern": "CT 1: conditionals, loops, digits, primes, bits",
    "mastered": false,
-   "grit": "CT L1"
+   "grit": "QR L1 + CS Fund L1"
   },
   {
    "id": "w04",
    "week": 4,
    "dates": "7–13 Dec",
-   "pattern": "DSA start: Big-O + arrays (LeetCode Easy)",
-   "mastered": false
+   "pattern": "CT 2: strings + arrays core (hashing, two pointers, binary search)",
+   "mastered": false,
+   "grit": "CT&C L2 + CT L1 #1"
   },
   {
    "id": "w05",
    "week": 5,
    "dates": "14–20 Dec",
-   "pattern": "Strings + hashing (dict/set)",
-   "mastered": false
+   "pattern": "CT 3: advanced strings + arrays (sliding window, prefix sum, Kadane, matrix)",
+   "mastered": false,
+   "grit": "CT L1 #2"
   },
   {
    "id": "w06",
    "week": 6,
    "dates": "21–27 Dec",
-   "pattern": "Two pointers",
-   "mastered": false
+   "pattern": "CT 4: timed mocks + Novice interview prep",
+   "mastered": false,
+   "grit": "CT L1 #3"
   },
   {
    "id": "w07",
    "week": 7,
    "dates": "28 Dec–3 Jan",
-   "pattern": "Sliding window",
-   "mastered": false
+   "pattern": "Buffer: last CT L1 / interview + Python 3 (classes)",
+   "mastered": false,
+   "grit": "Interview"
   },
   {
    "id": "w08",
@@ -104,20 +109,20 @@
   {
    "badge": "Novice",
    "best": null,
-   "due": "2026-12-06",
-   "name": "Computational Thinking L1",
+   "name": "Applied Gen AI L1",
    "order": 1,
    "status": "open",
-   "id": "ct-l1"
+   "id": "genai-l1",
+   "due": "2026-11-29"
   },
   {
-   "badge": "Novice",
+   "badge": "Novice (prereq of CT&C L2)",
    "best": null,
-   "due": "2026-12-06",
-   "name": "CS Fundamentals L1",
+   "name": "Critical Thinking & Comm L1",
    "order": 2,
    "status": "open",
-   "id": "csf-l1"
+   "id": "ctc-l1",
+   "due": "2026-11-29"
   },
   {
    "badge": "Novice",
@@ -132,31 +137,34 @@
    "badge": "Novice",
    "best": null,
    "due": "2026-12-06",
-   "name": "Critical Thinking & Comm L2",
+   "name": "CS Fundamentals L1",
    "order": 4,
+   "status": "open",
+   "id": "csf-l1"
+  },
+  {
+   "badge": "Novice",
+   "best": null,
+   "due": "2026-12-13",
+   "name": "Critical Thinking & Comm L2",
+   "order": 5,
    "status": "open",
    "id": "ctc-l2"
   },
   {
    "badge": "Novice",
    "best": null,
-   "name": "Applied Gen AI L1",
-   "order": 5,
-   "status": "open",
-   "id": "genai-l1"
-  },
-  {
-   "badge": "—",
-   "best": null,
-   "name": "Critical Thinking & Comm L1",
+   "due": "2026-12-26",
+   "name": "Computational Thinking L1",
    "order": 6,
    "status": "open",
-   "id": "ctc-l1"
+   "id": "ct-l1",
+   "blocker": true
   },
   {
    "badge": "Specialist",
    "best": null,
-   "due": "2027-01-03",
+   "due": "2027-01-24",
    "name": "Computational Thinking L2",
    "order": 7,
    "status": "open",
@@ -201,6 +209,24 @@
    "id": "q2",
    "title": "Send Nikhil your GRIT skill scores so the tracker shows them",
    "due": "2026-11-20",
+   "done": false
+  },
+  {
+   "id": "q3",
+   "title": "GRIT Novice: ask NIAT the exact December cut-off, interview booking, and confirm 75% attendance + semester registration",
+   "due": "2026-11-25",
+   "done": false
+  },
+  {
+   "id": "q4",
+   "title": "Book the first available slots for Gen AI L1 + CT&C L1 (booked slots can't be cancelled)",
+   "due": "2026-11-29",
+   "done": false
+  },
+  {
+   "id": "q5",
+   "title": "GRIT Novice badge: all 6 levels + interview cleared",
+   "due": "2026-12-31",
    "done": false
   }
  ]

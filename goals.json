@@ -33,6 +33,51 @@
  ],
  "milestones": [
   {
+   "id": "novice",
+   "track": "grit",
+   "short": "Novice",
+   "name": "GRIT AI Systems Novice badge (6 levels + interview)",
+   "due": "2026-12-31",
+   "verified": "2026-11-19",
+   "url": "https://dashboard.grit.niatindia.com/skill-guide",
+   "why": "First priority: qualifier entry needs one badge by Dec 2026. Needs Gen AI L1, CT&C L1+L2, QR L1, CS Fund L1, CT L1 (Silver or better) + the interview. Silver cutoffs: CT 83.33%, CS Fund 85%, QR 75%, CT&C L2 80%. Retakes need a 5-day gap; booked slots can't be cancelled.",
+   "items": [
+    {
+     "id": "elig",
+     "t": "Confirm ≥75% attendance since 15 Feb + semester registered + December cut-off with NIAT"
+    },
+    {
+     "id": "genai",
+     "t": "Gen AI L1 (Silver/Gold)"
+    },
+    {
+     "id": "ctc1",
+     "t": "CT&C L1 (Silver/Gold)"
+    },
+    {
+     "id": "qr",
+     "t": "QR L1 (≥75%)"
+    },
+    {
+     "id": "csf",
+     "t": "CS Fund L1 (≥85%)"
+    },
+    {
+     "id": "ctc2",
+     "t": "CT&C L2 (≥80%)"
+    },
+    {
+     "id": "ct",
+     "t": "CT L1 (≥83.33%, no partial marks)"
+    },
+    {
+     "id": "int",
+     "t": "Novice interview: Approved"
+    }
+   ],
+   "done": []
+  },
+  {
    "id": "srfp",
    "track": "fellow",
    "short": "SRFP",
@@ -115,7 +160,7 @@
    "id": "py",
    "track": "skill",
    "short": "Python",
-   "name": "Python fundamentals done (freeCodeCamp Python: basics → classes, 19 workshops/labs)",
+   "name": "Python for CT L1 done (freeCodeCamp basics → dicts; classes come 28 Dec–3 Jan)",
    "due": "2026-12-06",
    "url": "https://www.freecodecamp.org/learn/python-v9/",
    "verified": null,
@@ -123,15 +168,15 @@
    "items": [
     {
      "id": "p0",
-     "t": "PSets 0–1"
+     "t": "Weeks 1–2 freeCodeCamp workshops/labs"
     },
     {
      "id": "p2",
-     "t": "PSets 2–3"
+     "t": "Digits, primes, bits, slabs, patterns drills"
     },
     {
      "id": "p4",
-     "t": "PSets 4, 6, 8 (libraries, files, OOP)"
+     "t": "Classes: Musical Instrument, Planet, Email Simulator, Budget App (by 3 Jan)"
     },
     {
      "id": "git",
@@ -143,17 +188,13 @@
   {
    "id": "kaggle5",
    "track": "skill",
-   "short": "5 certs",
-   "name": "5 Kaggle Learn certificates",
-   "due": "2027-01-03",
+   "short": "3 certs",
+   "name": "3 Kaggle Learn certificates (Pandas, Data Viz, Intro to ML)",
+   "due": "2027-01-24",
    "url": "https://www.kaggle.com/learn",
    "verified": null,
    "why": "Free, recognised proof of skills for your resume.",
    "items": [
-    {
-     "id": "python",
-     "t": "Python"
-    },
     {
      "id": "pandas",
      "t": "Pandas"
@@ -165,10 +206,6 @@
     {
      "id": "ml",
      "t": "Intro to ML"
-    },
-    {
-     "id": "iml",
-     "t": "Intermediate ML"
     }
    ],
    "done": []
@@ -178,7 +215,7 @@
    "track": "skill",
    "short": "PyTorch",
    "name": "PyTorch: MNIST + Fashion-MNIST trained",
-   "due": "2027-01-17",
+   "due": "2027-01-24",
    "url": "https://pytorch.org/tutorials/beginner/basics/intro.html",
    "verified": null,
    "why": "PyTorch is the #1 skill in ML job posts.",
@@ -215,14 +252,14 @@
   {
    "id": "dml20",
    "track": "skill",
-   "short": "deep-ml 20",
-   "name": "20 deep-ml problems",
+   "short": "deep-ml 12",
+   "name": "12 deep-ml problems (starts week 8)",
    "due": "2027-02-14",
    "url": "https://www.deep-ml.com/",
    "verified": null,
    "why": "ML from scratch in NumPy — impresses interviewers.",
    "auto": "deepml",
-   "target": 20,
+   "target": 12,
    "items": [],
    "done": []
   },
@@ -231,7 +268,7 @@
    "track": "proj",
    "short": "Project A",
    "name": "Project A: public EDA notebook on a real dataset",
-   "due": "2026-12-20",
+   "due": "2027-01-10",
    "url": null,
    "verified": null,
    "why": "First portfolio piece: shows you can work with real data.",
@@ -256,7 +293,7 @@
    "track": "proj",
    "short": "Project B",
    "name": "Project B: own image classifier, live on Hugging Face Spaces",
-   "due": "2027-01-31",
+   "due": "2027-02-07",
    "url": null,
    "verified": null,
    "why": "Your strongest internship signal: a model anyone can try.",
@@ -284,8 +321,8 @@
    "id": "pc",
    "track": "proj",
    "short": "Project C",
-   "name": "Project C: fine-tuned text model on Hugging Face Hub",
-   "due": "2027-02-07",
+   "name": "Project C (stretch, after the Novice push): fine-tuned text model on Hugging Face Hub",
+   "due": "2027-03-15",
    "url": "https://huggingface.co/learn",
    "verified": null,
    "why": "Shows you can work with language models — the hottest skill.",
@@ -310,7 +347,7 @@
    "track": "intern",
    "short": "Resume",
    "name": "Resume + GitHub + LinkedIn ready",
-   "due": "2027-02-07",
+   "due": "2027-02-10",
    "url": null,
    "verified": null,
    "why": "Projects first. Every repo has a README.",
